@@ -1,31 +1,3 @@
-// import React from 'react';
-// import Navbar from '../pages/navbar/Navbar';
-// import Footer from '../pages/footer/Footer';
-// import { Outlet } from 'react-router-dom';
-// import '../layout/layout.css';
-// import Banner from '../components/topBanner/Banner';
-
-// const Layout = () => {
-//   return (
-//     <>
-//       <div className="layoutContainer">
-//         <Banner/>
-//         <Navbar />
-//         <div className="mainContent">
-//           <Outlet />
-//         </div>
-//         <Footer />
-//       </div>
-//     </>
-//   );
-// };
-
-// export default Layout;
-
-
-
-
-
 import React from 'react';
 import { useLocation } from 'react-router-dom';
 import Navbar from '../pages/navbar/Navbar';
@@ -48,6 +20,13 @@ const Layout = () => {
     /^\/checkout$/
   ].some(pattern => pattern.test(location.pathname));
 
+  const hideFooterPaths = [
+    '/',
+    // Add other paths here if needed
+  ];
+
+  const showFooter = !hideFooterPaths.includes(location.pathname);
+
   return (
     <>
       <div className="layoutContainer">
@@ -62,9 +41,13 @@ const Layout = () => {
           <Outlet />
         </div>
       </div>
-      {/* <Footer/> */}
+      <div className='footerContainer'>
+      {showFooter && <Footer />}
+      </div>
     </>
   );
 };
 
 export default Layout;
+
+
