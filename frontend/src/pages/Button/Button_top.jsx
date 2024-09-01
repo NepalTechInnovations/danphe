@@ -6,10 +6,10 @@ const Button_top = () => {
   return (
     <button className="hover-button">
       <div className="hover-button__div">
-      <Link className='link' to={'/quote-pricing'}><span>Get Started</span></Link>
+      <Link className='link' to={'/quote-pricing'}><span>Let's Get Started</span></Link>
       </div>
       <div className="hover-button__div">
-        <Link className='link' to={'/quote-pricing'}><span>Get Started</span></Link>
+        <Link className='link' to={'/quote-pricing'}><span>Let's Get Started</span></Link>
       </div>
     </button>
   );

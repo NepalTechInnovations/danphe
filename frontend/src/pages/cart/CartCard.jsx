@@ -110,10 +110,10 @@ const CartCard = ({ hideContinueButton }) => {
   const subtotal = cart.reduce((acc, item) => acc + item.price, 0);
 
   // Additional fees (you can modify these as per your requirement)
-  const shippingFee = 20;
-  const stateExpediteFee = 130;
-  const stateFee = 10;
-  const creditCardSurcharge = 10;
+  const shippingFee = 0;
+  const stateExpediteFee = 0;
+  const stateFee = 0;
+  const creditCardSurcharge = 0;
 
   // Calculate the total
   const total = subtotal + shippingFee + stateExpediteFee + stateFee + creditCardSurcharge;

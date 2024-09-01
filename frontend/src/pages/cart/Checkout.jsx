@@ -94,10 +94,10 @@ const Checkout = () => {
 
     // Calculate the subtotal
     const subtotal = cart.reduce((acc, item) => acc + item.price, 0);
-    const shippingFee = 20;
-    const stateExpediteFee = 130;
-    const stateFee = 10;
-    const creditCardSurcharge = 10;
+    const shippingFee = 0;
+    const stateExpediteFee = 0;
+    const stateFee = 0;
+    const creditCardSurcharge = 0;
 
     // Calculate the total
     const totalPrice = subtotal + shippingFee + stateExpediteFee + stateFee + creditCardSurcharge;

@@ -123,10 +123,10 @@ const Cart = () => {
   const subtotal = cart.reduce((acc, item) => acc + item.price, 0);
 
   // Additional fees
-  const shippingFee = 20;
-  const stateExpediteFee = 130;
-  const stateFee = 10;
-  const creditCardSurcharge = 10;
+  const shippingFee = 0;
+  const stateExpediteFee = 0;
+  const stateFee = 0;
+  const creditCardSurcharge = 0;
 
   // Calculate the total
   const total = subtotal + shippingFee + stateExpediteFee + stateFee + creditCardSurcharge;
@@ -222,7 +222,7 @@ const Cart = () => {
 
           <div className="cart-buttons">
             <button className="cart-button continue-shopping" onClick={handleContinueShopping}>Continue Shopping</button>
-            <button className="cart-button checkout">Checkout</button>
+            <button className="cart-button checkout" onClick={()=>navigate('/checkout')}>Checkout</button>
           </div>
         </>
       )}

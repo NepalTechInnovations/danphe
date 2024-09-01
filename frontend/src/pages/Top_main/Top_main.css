@@ -1,3 +1,13 @@
+.chatBoxModal{
+    position: fixed;
+    top: 424px;
+    left: 964px;
+    z-index: 999;
+
+}
+
+
+
 /* Ensure Navbar stays on top */
 .navbar {
     position: relative; 

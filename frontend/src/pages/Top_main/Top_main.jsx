@@ -3,6 +3,8 @@ import "./Top_main.css";
 import Button_top from "../Button/Button_top";
 import Front_page from '../Front_page';
 import Navbar from '../navbar/Navbar';
+import ChatBox from '../../components/chatBox/ChatBox';
+
 
 const Top_main = () => {
   useEffect(() => {
@@ -93,7 +95,10 @@ const Top_main = () => {
               </div>
             </div>
           </div>
+        
           <div className="main_background_right">
+          
+            <div className='chatBoxModal'><ChatBox/></div>
             <div className='top_img'>
               <div className='Top_left_image'>
                 <img src='/img/girl4.png' alt="" />
@@ -110,8 +115,10 @@ const Top_main = () => {
                 <img src='/img/girl1.png' alt="" />
               </div>
             </div>
+            
           </div>
         </div>
+      
         <Front_page />
       </div>
     </>
