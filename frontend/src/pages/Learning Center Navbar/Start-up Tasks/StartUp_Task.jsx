@@ -5,8 +5,10 @@ import ExpandableList from './Expand/ExpandableList';
 import Expandablelist2 from './Expandable list 2/ExpandableList2';
 import { ImQuotesLeft } from "react-icons/im";
 import { ImQuotesRight } from "react-icons/im";
+import {useNavigate } from 'react-router-dom';
 
 const StartUp_Task = () => {
+  const navigate = useNavigate()
   return (
     <div className='start_up_main_container'>
       <div className='top_main_hero_section'>
@@ -47,7 +49,7 @@ const StartUp_Task = () => {
           Lawrence Dufraine - Londonerry,<br/>
           NH - 11/22/2014
           </div>
-          <button className='start_getstarted'>
+          <button className='start_getstarted' onClick={()=>navigate('/quote-pricing')}>
               Get Started
           </button>
         </div>

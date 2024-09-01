@@ -1,9 +1,12 @@
 import React from 'react';
 import './Benefits_of_Incorporating.css';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import ComparisonChart from './Comparision chart/ComparisonChart';
 
 const BenefitsOfIncorporating = () => {
+  const navigate = useNavigate();
+
+
   return (
     <div className="benefits_container">
       <h1 className="benefits_heading">Why Should I Incorporate My Business?</h1>
@@ -82,7 +85,7 @@ const BenefitsOfIncorporating = () => {
           <h3>
             Ready to create your company?
           </h3>
-          <button className="benefits_button_full_left">Get Started</button>
+          <button className="benefits_button_full_left" onClick={()=>navigate('/quote-pricing')}>Get Started</button>
           {/* <ComparisonChart/> */}
 
         </div>
@@ -90,7 +93,7 @@ const BenefitsOfIncorporating = () => {
         <div className="benefits_right">
           <h3 className='right_h3'>Ready to Incorporate?</h3>
           <p>Get started today and secure your business future.</p>
-          <button className="benefits_button_full">Get Started</button>
+          <button className="benefits_button_full" onClick={()=>navigate('/quote-pricing')}>Get Started</button>
         </div>
       </div>
     </div>
