@@ -1,12 +1,16 @@
 import React, { useState, useEffect, useRef } from 'react';
+import { useNavigate } from 'react-router-dom';
+
 import './Let_start.css';
 
 const Let_start = () => {
+  const navigate = useNavigate();
   const [counts, setCounts] = useState([0, 0, 0]);
   const counterRefs = useRef([React.createRef(), React.createRef(), React.createRef()]);
   const targetNumbers = [99, 20, 98]; // Target numbers for each counter
   const formats = ['%', 'M']; // Formats to be added after the numbers
   const incrementSpeed = 30; // Speed of the counting animation (in milliseconds)
+
 
   useEffect(() => {
     const observer = new IntersectionObserver(
@@ -120,7 +124,7 @@ const Let_start = () => {
           <h2 className='content_header'>
             Get the download on Corporations, LLCs, & More.
           </h2>
-          <button className='bottom_div_button'>
+          <button className='bottom_div_button' onClick={()=>navigate('/download-guide-info')}>
             Download The Free Guide
           </button>
         </div>

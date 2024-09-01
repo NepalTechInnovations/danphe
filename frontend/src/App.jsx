@@ -64,6 +64,11 @@ import NonProfit_501_Status from "./pages/Maintaining_A_BUsiness Navbar/NonProfi
 import Register_in_Additional_States from "./pages/Maintaining_A_BUsiness Navbar/Register in Additional States/Register_in_Additional_States"
 import ComparisonChart from './pages/Learning Center Navbar/Benefits of Incorporating/Comparision chart/ComparisonChart';
 
+//downlaod guide info page
+import DownloadGuideInfo from './pages/downloadGuide/DownloadGuideInfo';
+import ThankYouGuide from './pages/downloadGuide/ThankYouGuide';
+
+
 
 
 
@@ -133,6 +138,10 @@ const App = () => {
               <Route path='/Maintaining_a_Business' element={ <Maintaining_a_Business/> } />
               <Route path='/NonProfit_501_Status' element={ <NonProfit_501_Status/> } />
               <Route path='/Register_in_Additional_States' element={ <Register_in_Additional_States/> } />
+
+            {/* Download guide */}
+              <Route path= '/download-guide-info' element={<DownloadGuideInfo/>} />
+              <Route path= '/thank-you-guide' element={<ThankYouGuide/>} />
 
               {/* Protected Routes */}
               <Route element={<ProtectedRoute />}>

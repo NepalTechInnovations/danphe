@@ -9,6 +9,7 @@ const contactRoute = require ('./routes/contactRoute');
 const orderRoute = require ('./routes/orderRoute')
 const fileUploadRoute = require ('./routes/fileUploadRoute');
 const homeRoute = require ('./routes/homeRoute');
+const guideInfoRoute = require ('./routes/guideInfoRoute');
 
 const port = process.env.PORT || 5000;
 const app = express();
@@ -27,6 +28,7 @@ app.use('/api/v1/contact', contactRoute);
 app.use('/api/v1/order', orderRoute);
 app.use('/api/v1/fileUpload', fileUploadRoute);
 app.use('/api/v1/home', homeRoute)
+app.use('/api/v1/guide', guideInfoRoute)
 
 
 app.get('/', (req, res) => {
