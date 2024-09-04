@@ -14,33 +14,40 @@
   
   .top_maintaining_business {
     width: 100%;
-    height: auto;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
   }
   
   .image_over_paragraph_maintaining_business {
-    position: absolute;
-    top: 50%;
-    left: 25%;
-    transform: translate(-50%, -50%);
-    font-size: 2rem;
-    color: #003b5c;
-    font-size:36px;
-    font-weight:500;
-    /* background-color: rgba(0, 0, 0, 0.5); */
+    position: absolute; /* Positioning the text absolutely within the container */
+    color: #003B5C;
+    top: 6vh;
+    width: 40%;
+    text-align: left; /* Centering the text horizontally */
+    margin: 0 auto 0 17%; /* Ensuring the text block is centered */
     padding: 10px;
-    border-radius: 5px;
+    font-size: 36px; /* Adjust font size as needed */
+    font-weight: 500;
+  }
+
+  .accordion-link {
+    margin-left: 10px;
+    color: #d1344f;
   }
   
   .bottom_MaintainingABusiness {
-    padding: 20px;
-    margin:20px auto;
-    width:70%;
+    width: 60%;
+    margin: auto;
+    margin-top: 50px;
   }
   
   .MaintainingABusiness_paragraph {
-    font-size: 1.1rem;
-    line-height: 1.6;
+    font-size: 1rem;
+    line-height: 1.4;
+    color: #555;
     margin-bottom: 20px;
+    text-align: justify;
   }
   
   .arrow-button {
@@ -79,7 +86,7 @@
 
   }
   
-  accordion-header {
+  .accordion-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
