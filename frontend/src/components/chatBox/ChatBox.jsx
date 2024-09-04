@@ -10,7 +10,7 @@ const ChatBox = () => {
   }
 
   const handleChatNow = () => {
-    window.open('/new-order', ); 
+    window.open('/new-order', '_blank', 'width=600, height=800'); 
   }
 
   if (!isVisible) return null;

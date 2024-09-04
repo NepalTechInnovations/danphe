@@ -47,7 +47,7 @@ const EditInfo = () => {
                 </div>
                 <div className="container">
                     <div className="editInfo">
-                        <h3>Company Information</h3>
+                        <h3 className='userDashboardHeading'>Company Information</h3>
                         {userCompanyInfo.length === 0 ? (
                             <p>No company information available.</p>
                         ) : (

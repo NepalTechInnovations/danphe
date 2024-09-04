@@ -8,6 +8,7 @@
     width: 7vw;
     object-fit: cover;
     border: 2px solid var(--cherryRed);
+    margin-top: 62px;
 }
 
 .clientDataContainer h4{

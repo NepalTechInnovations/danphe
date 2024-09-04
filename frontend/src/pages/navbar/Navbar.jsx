@@ -35,6 +35,14 @@ const Navbar = () => {
     window.location.href = '/login';
   };
 
+
+  const handleNewOrderPopUpClick = () => {
+    window.open('/new-order', '_blank', 'width=600, height=800'); 
+  }
+  const handleExitingOrderPopUpClick = () => {
+    window.open('/existing-order', '_blank', 'width=600, height=800'); 
+  }
+
   const userMenu = (
     <Menu>
       {auth?.user ? (
@@ -66,10 +74,10 @@ const Navbar = () => {
   const messageMenu = (
     <Menu>
       <Menu.Item key="new-order">
-        <NavLink className='dropdownLink_heading' to="/new-order">New Order</NavLink>
+        <NavLink onClick={handleNewOrderPopUpClick} className='dropdownLink_heading' to="/new-order">New Order</NavLink>
       </Menu.Item>
       <Menu.Item key="existing-order">
-        <NavLink className='dropdownLink_heading' to="/existing-order">Existing Order</NavLink>
+        <NavLink onClick={handleExitingOrderPopUpClick} className='dropdownLink_heading' to="/existing-order">Existing Order</NavLink>
       </Menu.Item>
     </Menu>
   );
