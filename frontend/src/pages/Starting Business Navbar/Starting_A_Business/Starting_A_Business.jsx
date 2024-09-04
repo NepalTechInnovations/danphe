@@ -29,7 +29,7 @@ const Starting_A_Business = () => {
           <div className="starting-accordion-content">
             {content}
             {link && (
-              <Link to={link} className="starting-accordion-link">
+              <Link to={link} className="accordion-link">
                 More…
               </Link>
             )}
