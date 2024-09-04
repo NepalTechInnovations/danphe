@@ -11,6 +11,10 @@
     object-fit: cover;
     object-position: center;
   }
+
+  .starting-accordion-content{
+    padding: 10px;
+  }
   
   .image_over_paragraph_starting_a_business {
     position: absolute; /* Positioning the text absolutely within the container */
