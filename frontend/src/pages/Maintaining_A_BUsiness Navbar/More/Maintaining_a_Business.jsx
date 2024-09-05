@@ -192,7 +192,7 @@ const MaintainingABusiness = () => {
           <Accordion
             title="Delaware E-Filing"
             content="We offer an annual service to help you meet Delaware state franchise tax and annual report requirements and keep your company in good standing."
-            link="/to-do"
+            link="/Delaware_E_Filing"
             isOpen={openAccordionIndex['other_filings'] === 2}
             onClick={() => handleAccordionClick('other_filings', 2)}
           />

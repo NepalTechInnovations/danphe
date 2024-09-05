@@ -68,6 +68,7 @@ import Corporate_and_LLC_Kits from './pages/Maintaining_A_BUsiness Navbar/Corpor
 import Certified_Copies from './pages/Maintaining_A_BUsiness Navbar/Certified Copies/Certified_Copies';
 import Stock_And_Membership from './pages/Maintaining_A_BUsiness Navbar/Stock and Membership Certificates/Stock_And_Membership';
 import Written_Constent from './pages/Maintaining_A_BUsiness Navbar/Written Consent/Written_Consent';
+import Delaware_E_Filing from './pages/Maintaining_A_BUsiness Navbar/Delaware E-Filing/Delaware_E_Filing';
 
 //downlaod guide info page
 import DownloadGuideInfo from './pages/downloadGuide/DownloadGuideInfo';
@@ -150,6 +151,7 @@ const App = () => {
               <Route path='/Stock_And_Membership' element={<Stock_And_Membership />}/>
               <Route path='/Written_Consent' element={< Written_Constent/>} />
               <Route path='/Scrop_Election' element={<Scrop_Election />} />
+              <Route path='/Delaware_E_Filing' element={<Delaware_E_Filing />} />
 
             {/* Download guide */}
               <Route path= '/download-guide-info' element={<DownloadGuideInfo/>} />
