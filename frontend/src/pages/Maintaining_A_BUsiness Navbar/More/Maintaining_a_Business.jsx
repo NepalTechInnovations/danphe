@@ -214,7 +214,7 @@ const MaintainingABusiness = () => {
           <Accordion
             title="Dissolution"
             content="Businesses close for many reasons, but it's not enough for corporations or LLCs to simply shut their doors. If you have gone out of business, you need to officially dissolve your corporation or LLC with the state. incorporate.com can help you prepare and file your Articles of Dissolution to ensure you terminate your business the right way."
-            link="/to-do"
+            link="/Dissolution"
             isOpen={openAccordionIndex['other_filings'] === 5}
             onClick={() => handleAccordionClick('other_filings', 5)}
           />

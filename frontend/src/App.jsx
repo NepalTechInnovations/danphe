@@ -71,6 +71,7 @@ import Written_Constent from './pages/Maintaining_A_BUsiness Navbar/Written Cons
 import Delaware_E_Filing from './pages/Maintaining_A_BUsiness Navbar/Delaware E-Filing/Delaware_E_Filing';
 import Amendments from './pages/Maintaining_A_BUsiness Navbar/Amendments/Amendments';
 import Entity_Conversion from './pages/Maintaining_A_BUsiness Navbar/Entity Conversion/Entity_Conversion';
+import Dissolution from './pages/Maintaining_A_BUsiness Navbar/Dissolution/Dissolution';
 
 //downlaod guide info page
 import DownloadGuideInfo from './pages/downloadGuide/DownloadGuideInfo';
@@ -156,6 +157,7 @@ const App = () => {
               <Route path='/Delaware_E_Filing' element={<Delaware_E_Filing />} />
               <Route path='/Amendments' element={<Amendments />} />
               <Route path='/Entity_Conversion' element={<Entity_Conversion />} />
+              <Route path='/Dissolution' element={<Dissolution />} />
 
             {/* Download guide */}
               <Route path= '/download-guide-info' element={<DownloadGuideInfo/>} />
