@@ -199,7 +199,7 @@ const MaintainingABusiness = () => {
           <Accordion
             title="Amendments"
             content="Whenever your business makes fundamental changes to its records, you must notify the Secretary of State by filing what are known as Articles of Amendment (for corporations) and Certificate of Amendment (for LLCs). We can help you update your records the right way."
-            link="/to-do"
+            link="/Amendments"
             isOpen={openAccordionIndex['other_filings'] === 3}
             onClick={() => handleAccordionClick('other_filings', 3)}
           />
