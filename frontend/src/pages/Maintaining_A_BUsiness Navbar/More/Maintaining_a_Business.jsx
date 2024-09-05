@@ -148,7 +148,7 @@ const MaintainingABusiness = () => {
           <Accordion
             title="S Corporation Election – Form 2553"
             content="Filing for S Corporation status may provide tax benefits to your business. Ascend offers services that provide you with tax consultation, assistance in completing the proper forms, and answers to your tax-related questions."
-            link="/to-do"
+            link="/Scrop_Election"
             isOpen={openAccordionIndex['irs_filings'] === 1}
             onClick={() => handleAccordionClick('irs_filings', 1)}
           />

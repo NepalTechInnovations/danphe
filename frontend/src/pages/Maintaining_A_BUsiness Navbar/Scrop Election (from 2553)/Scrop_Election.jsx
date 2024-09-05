@@ -6,7 +6,7 @@ const Scrop_Election = () => {
   return (
     <div className='scrop-election-container'>
       <h2 className="scrop-election-heading">
-        Scrop Election
+      IRS S Corp Election Form 2553
       </h2>
       <div className="scrop-election-bottom-container">
         <div className="scrop-election-left-container">

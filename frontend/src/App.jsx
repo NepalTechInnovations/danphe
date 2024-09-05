@@ -149,6 +149,7 @@ const App = () => {
               <Route path='/Certified_Copies' element={<Certified_Copies />}/>
               <Route path='/Stock_And_Membership' element={<Stock_And_Membership />}/>
               <Route path='/Written_Consent' element={< Written_Constent/>} />
+              <Route path='/Scrop_Election' element={<Scrop_Election />} />
 
             {/* Download guide */}
               <Route path= '/download-guide-info' element={<DownloadGuideInfo/>} />
