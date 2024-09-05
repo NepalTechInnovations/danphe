@@ -63,6 +63,7 @@ import Maintaining_a_Business from "./pages/Maintaining_A_BUsiness Navbar/More/M
 import NonProfit_501_Status from "./pages/Maintaining_A_BUsiness Navbar/NonProfit 501 (C) Status/NonProfit_501_Status"
 import Register_in_Additional_States from "./pages/Maintaining_A_BUsiness Navbar/Register in Additional States/Register_in_Additional_States"
 import ComparisonChart from './pages/Learning Center Navbar/Benefits of Incorporating/Comparision chart/ComparisonChart';
+import CSC_Navigator from './pages/Maintaining_A_BUsiness Navbar/CSC Navigator/CSC_Navigator';
 
 //downlaod guide info page
 import DownloadGuideInfo from './pages/downloadGuide/DownloadGuideInfo';
@@ -138,6 +139,7 @@ const App = () => {
               <Route path='/Maintaining_a_Business' element={ <Maintaining_a_Business/> } />
               <Route path='/NonProfit_501_Status' element={ <NonProfit_501_Status/> } />
               <Route path='/Register_in_Additional_States' element={ <Register_in_Additional_States/> } />
+              <Route path='/CSC_Navigator' element={<CSC_Navigator />} />
 
             {/* Download guide */}
               <Route path= '/download-guide-info' element={<DownloadGuideInfo/>} />

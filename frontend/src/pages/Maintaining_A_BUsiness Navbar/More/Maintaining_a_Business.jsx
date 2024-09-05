@@ -84,7 +84,7 @@ const MaintainingABusiness = () => {
           <Accordion
             title="CSCNavigator®"
             content="As part of incorporate.com's Registered Agent service, you have free access to CSCNavigator, a state-of-the-art online online tool that provides you with alerts when filings are due, a calendar of required filings, order status and related documents, the ability to view and pay invoices, current business standing with the state, and more."
-            link="/to-do"
+            link="/CSC_Navigator"
             isOpen={openAccordionIndex['compliance'] === 3}
             onClick={() => handleAccordionClick('compliance', 3)}
           />
