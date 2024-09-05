@@ -112,7 +112,7 @@ const MaintainingABusiness = () => {
           <Accordion
             title="Certified Copies"
             content="Business owners occasionally need to get copies of their most important state-filed documents. incorporate.com can help you get true and correct copies of your important business records."
-            link="/to-do"
+            link="/Certified_Copies"
             isOpen={openAccordionIndex['compliance'] === 7}
             onClick={() => handleAccordionClick('compliance', 7)}
           />

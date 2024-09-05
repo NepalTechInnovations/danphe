@@ -65,6 +65,7 @@ import Register_in_Additional_States from "./pages/Maintaining_A_BUsiness Navbar
 import ComparisonChart from './pages/Learning Center Navbar/Benefits of Incorporating/Comparision chart/ComparisonChart';
 import CSC_Navigator from './pages/Maintaining_A_BUsiness Navbar/CSC Navigator/CSC_Navigator';
 import Corporate_and_LLC_Kits from './pages/Maintaining_A_BUsiness Navbar/Corporate and LLC Kits/Corporate_and_LLC_Kits';
+import Certified_Copies from './pages/Maintaining_A_BUsiness Navbar/Certified Copies/Certified_Copies';
 
 //downlaod guide info page
 import DownloadGuideInfo from './pages/downloadGuide/DownloadGuideInfo';
@@ -143,6 +144,7 @@ const App = () => {
               <Route path='/Register_in_Additional_States' element={ <Register_in_Additional_States/> } />
               <Route path='/CSC_Navigator' element={<CSC_Navigator />} />
               <Route path='/Corporate_and_LLC_Kits' element={<Corporate_and_LLC_Kits />} />
+              <Route path='/Certified_Copies' element={<Certified_Copies />}/>
 
             {/* Download guide */}
               <Route path= '/download-guide-info' element={<DownloadGuideInfo/>} />
