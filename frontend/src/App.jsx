@@ -64,6 +64,7 @@ import NonProfit_501_Status from "./pages/Maintaining_A_BUsiness Navbar/NonProfi
 import Register_in_Additional_States from "./pages/Maintaining_A_BUsiness Navbar/Register in Additional States/Register_in_Additional_States"
 import ComparisonChart from './pages/Learning Center Navbar/Benefits of Incorporating/Comparision chart/ComparisonChart';
 import CSC_Navigator from './pages/Maintaining_A_BUsiness Navbar/CSC Navigator/CSC_Navigator';
+import Corporate_and_LLC_Kits from './pages/Maintaining_A_BUsiness Navbar/Corporate and LLC Kits/Corporate_and_LLC_Kits';
 
 //downlaod guide info page
 import DownloadGuideInfo from './pages/downloadGuide/DownloadGuideInfo';
@@ -124,6 +125,7 @@ const App = () => {
               <Route path='/Limited_Partnership' element={<Limited_Partnership />} />
               <Route path='/Starting_A_Business' element={ <Starting_A_Business/> } />
               <Route path='/Name_Reservation' element={ <Name_Reservation/>} />
+              <Route path='/Business_Licenses' element={<Business_Lisences />}/>
 
 
 
@@ -140,6 +142,7 @@ const App = () => {
               <Route path='/NonProfit_501_Status' element={ <NonProfit_501_Status/> } />
               <Route path='/Register_in_Additional_States' element={ <Register_in_Additional_States/> } />
               <Route path='/CSC_Navigator' element={<CSC_Navigator />} />
+              <Route path='/Corporate_and_LLC_Kits' element={<Corporate_and_LLC_Kits />} />
 
             {/* Download guide */}
               <Route path= '/download-guide-info' element={<DownloadGuideInfo/>} />

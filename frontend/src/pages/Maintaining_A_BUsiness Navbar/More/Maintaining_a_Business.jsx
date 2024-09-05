@@ -98,7 +98,7 @@ const MaintainingABusiness = () => {
           <Accordion
             title="Corporate & LLC Kits"
             content="Ascend offers a convenient tool to help you to maintain records for your corporation or LLC. Our Corporate Compliance Kit provides the ideal storage place for all your important business documents, with dedicated sections for banks, accountants, and lawyers that make it easy to organize and retrieve information."
-            link="/to-do"
+            link="/Corporate_and_LLC_Kits"
             isOpen={openAccordionIndex['compliance'] === 5}
             onClick={() => handleAccordionClick('compliance', 5)}
           />
