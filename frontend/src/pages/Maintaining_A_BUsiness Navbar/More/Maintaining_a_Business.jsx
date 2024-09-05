@@ -126,7 +126,7 @@ const MaintainingABusiness = () => {
           <Accordion
             title="Written Consent"
             content=" Resolutions made by of the board of directors, shareholders or LLC members of your company can be approved in one of two ways: by having a vote at a meeting or through a written consent document. We can provide you with a written consent that you can use to approve important business decisions."
-            link="/to-do"
+            link="/Written_Consent"
             isOpen={openAccordionIndex['compliance'] === 9}
             onClick={() => handleAccordionClick('compliance', 9)}
           />

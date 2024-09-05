@@ -67,6 +67,7 @@ import CSC_Navigator from './pages/Maintaining_A_BUsiness Navbar/CSC Navigator/C
 import Corporate_and_LLC_Kits from './pages/Maintaining_A_BUsiness Navbar/Corporate and LLC Kits/Corporate_and_LLC_Kits';
 import Certified_Copies from './pages/Maintaining_A_BUsiness Navbar/Certified Copies/Certified_Copies';
 import Stock_And_Membership from './pages/Maintaining_A_BUsiness Navbar/Stock and Membership Certificates/Stock_And_Membership';
+import Written_Constent from './pages/Maintaining_A_BUsiness Navbar/Written Consent/Written_Consent';
 
 //downlaod guide info page
 import DownloadGuideInfo from './pages/downloadGuide/DownloadGuideInfo';
@@ -147,6 +148,7 @@ const App = () => {
               <Route path='/Corporate_and_LLC_Kits' element={<Corporate_and_LLC_Kits />} />
               <Route path='/Certified_Copies' element={<Certified_Copies />}/>
               <Route path='/Stock_And_Membership' element={<Stock_And_Membership />}/>
+              <Route path='/Written_Consent' element={< Written_Constent/>} />
 
             {/* Download guide */}
               <Route path= '/download-guide-info' element={<DownloadGuideInfo/>} />
