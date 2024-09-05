@@ -162,7 +162,7 @@ const MaintainingABusiness = () => {
           <Accordion
             title="LLC Tax Status Election (Form 8832)"
             content="It's important to have the best available tax classification for your LLC in order to maximize your tax savings. By filing Form 8832 with the IRS, you can choose a tax status for your entity besides the default status that was automatically assigned. Incorporate.com can help walk you through the process."
-            link="/to-do"
+            link="/LLC_Tax_Status_Election"
             isOpen={openAccordionIndex['irs_filings'] === 3}
             onClick={() => handleAccordionClick('irs_filings', 3)}
           />
