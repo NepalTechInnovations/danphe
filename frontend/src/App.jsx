@@ -70,6 +70,7 @@ import Stock_And_Membership from './pages/Maintaining_A_BUsiness Navbar/Stock an
 import Written_Constent from './pages/Maintaining_A_BUsiness Navbar/Written Consent/Written_Consent';
 import Delaware_E_Filing from './pages/Maintaining_A_BUsiness Navbar/Delaware E-Filing/Delaware_E_Filing';
 import Amendments from './pages/Maintaining_A_BUsiness Navbar/Amendments/Amendments';
+import Entity_Conversion from './pages/Maintaining_A_BUsiness Navbar/Entity Conversion/Entity_Conversion';
 
 //downlaod guide info page
 import DownloadGuideInfo from './pages/downloadGuide/DownloadGuideInfo';
@@ -154,6 +155,7 @@ const App = () => {
               <Route path='/Scrop_Election' element={<Scrop_Election />} />
               <Route path='/Delaware_E_Filing' element={<Delaware_E_Filing />} />
               <Route path='/Amendments' element={<Amendments />} />
+              <Route path='/Entity_Conversion' element={<Entity_Conversion />} />
 
             {/* Download guide */}
               <Route path= '/download-guide-info' element={<DownloadGuideInfo/>} />

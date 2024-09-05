@@ -207,7 +207,7 @@ const MaintainingABusiness = () => {
           <Accordion
             title="Entity Conversion"
             content="Need to change your business from an LLC to a corporation (or vice versa)? We can help you with the conversion process."
-            link="/to-do"
+            link="/Entity_Conversion"
             isOpen={openAccordionIndex['other_filings'] === 4}
             onClick={() => handleAccordionClick('other_filings', 4)}
           />
