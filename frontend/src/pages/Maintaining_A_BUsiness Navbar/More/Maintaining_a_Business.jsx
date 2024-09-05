@@ -119,7 +119,7 @@ const MaintainingABusiness = () => {
           <Accordion
             title="Stock & Membership Certificates"
             content="Stock certificates are official documents issued by a corporation to its shareholders. LLCs have a similar document called a membership certificate. We can create customized stock or membership certificates on behalf of your business."
-            link="/to-do"
+            link="/Stock_And_Membership"
             isOpen={openAccordionIndex['compliance'] === 8}
             onClick={() => handleAccordionClick('compliance', 8)}
           />

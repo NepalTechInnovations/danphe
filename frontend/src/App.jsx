@@ -66,6 +66,7 @@ import ComparisonChart from './pages/Learning Center Navbar/Benefits of Incorpor
 import CSC_Navigator from './pages/Maintaining_A_BUsiness Navbar/CSC Navigator/CSC_Navigator';
 import Corporate_and_LLC_Kits from './pages/Maintaining_A_BUsiness Navbar/Corporate and LLC Kits/Corporate_and_LLC_Kits';
 import Certified_Copies from './pages/Maintaining_A_BUsiness Navbar/Certified Copies/Certified_Copies';
+import Stock_And_Membership from './pages/Maintaining_A_BUsiness Navbar/Stock and Membership Certificates/Stock_And_Membership';
 
 //downlaod guide info page
 import DownloadGuideInfo from './pages/downloadGuide/DownloadGuideInfo';
@@ -145,6 +146,7 @@ const App = () => {
               <Route path='/CSC_Navigator' element={<CSC_Navigator />} />
               <Route path='/Corporate_and_LLC_Kits' element={<Corporate_and_LLC_Kits />} />
               <Route path='/Certified_Copies' element={<Certified_Copies />}/>
+              <Route path='/Stock_And_Membership' element={<Stock_And_Membership />}/>
 
             {/* Download guide */}
               <Route path= '/download-guide-info' element={<DownloadGuideInfo/>} />
