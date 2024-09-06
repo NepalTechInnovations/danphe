@@ -77,7 +77,7 @@ const Learningcenter = () => {
           <Accordion
             title="Benefits of Incorporating"
             content="The decision to incorporate is an important step in the life of a business. Weigh your options carefully and further investigate some of the added benefits of incorporation."
-            link="#"
+            link="/Benefits_of_Incorporating"
             isOpen={openAccordionIndex['exploration'] === 2}
             onClick={() => handleAccordionClick('exploration', 2)}
           />
