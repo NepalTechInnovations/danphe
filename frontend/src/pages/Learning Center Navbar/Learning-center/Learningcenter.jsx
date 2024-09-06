@@ -105,7 +105,7 @@ const Learningcenter = () => {
           <Accordion
             title="Protecting Your Investment"
             content="Don't leave your creative, intellectual, and personal property to chance. Ensure the foundation of your business is secure."
-            link="#"
+            link="/Protecting_Your_Investment"
             isOpen={openAccordionIndex['exploration'] === 6}
             onClick={() => handleAccordionClick('exploration', 6)}
           />
