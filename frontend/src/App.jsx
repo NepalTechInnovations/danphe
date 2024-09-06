@@ -74,6 +74,7 @@ import Entity_Conversion from './pages/Maintaining_A_BUsiness Navbar/Entity Conv
 import Dissolution from './pages/Maintaining_A_BUsiness Navbar/Dissolution/Dissolution';
 import Reinstatement from './pages/Maintaining_A_BUsiness Navbar/Reinstatement/Reinstatement';
 import Mail_Forwarding_Service from './pages/Maintaining_A_BUsiness Navbar/Mail Forwarding Service/Mail_Forwarding_Service';
+import How_To_Incorporate from './pages/Learning Center Navbar/How To Incorporate/How_To_Incorporate';
 
 //downlaod guide info page
 import DownloadGuideInfo from './pages/downloadGuide/DownloadGuideInfo';
@@ -117,6 +118,7 @@ const App = () => {
               <Route path='/Tax_filings' element={<Tax_filings />} />              <Route path='/State_guides' element={<State_guides />} />
               <Route path='/Learningcenter' element={<Learningcenter />} />
               <Route path='/Business_Comparision_Chart' element={< ComparisonChart/>} />
+              <Route path='/How_To_Incorporate' element={< How_To_Incorporate/>} />
 
 
 

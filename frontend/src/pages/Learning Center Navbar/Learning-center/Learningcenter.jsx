@@ -70,7 +70,7 @@ const Learningcenter = () => {
           <Accordion
             title="How to Incorporate or Form a Limited Liability Company (LLC)"
             content="Ascend makes it easy for you to form a corporation or LLC in any state. Most small business owners decide to incorporate to protect personal assets, gain credibility, and save on taxes."
-            link="#"
+            link="/How_To_Incorporate"
             isOpen={openAccordionIndex['exploration'] === 1}
             onClick={() => handleAccordionClick('exploration', 1)}
           />
