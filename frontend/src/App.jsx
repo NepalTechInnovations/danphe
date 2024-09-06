@@ -73,6 +73,7 @@ import Amendments from './pages/Maintaining_A_BUsiness Navbar/Amendments/Amendme
 import Entity_Conversion from './pages/Maintaining_A_BUsiness Navbar/Entity Conversion/Entity_Conversion';
 import Dissolution from './pages/Maintaining_A_BUsiness Navbar/Dissolution/Dissolution';
 import Reinstatement from './pages/Maintaining_A_BUsiness Navbar/Reinstatement/Reinstatement';
+import Mail_Forwarding_Service from './pages/Maintaining_A_BUsiness Navbar/Mail Forwarding Service/Mail_Forwarding_Service';
 
 //downlaod guide info page
 import DownloadGuideInfo from './pages/downloadGuide/DownloadGuideInfo';
@@ -160,6 +161,7 @@ const App = () => {
               <Route path='/Entity_Conversion' element={<Entity_Conversion />} />
               <Route path='/Dissolution' element={<Dissolution />} />
               <Route path='/Reinstatement' element={<Reinstatement />} />
+              <Route path='/Mail_Forwarding_Service' element={<Mail_Forwarding_Service />} />
 
             {/* Download guide */}
               <Route path= '/download-guide-info' element={<DownloadGuideInfo/>} />

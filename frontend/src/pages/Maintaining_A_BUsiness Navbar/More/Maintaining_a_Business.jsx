@@ -235,7 +235,10 @@ const MaintainingABusiness = () => {
           Mail Forwarding Service
         </h4>
         <p className='bottom_paragraph_maintainig'>
-          We offer a secure, private mailbox for all your company correspondence. More…
+          We offer a secure, private mailbox for all your company correspondence.
+          <Link to="/Mail_Forwarding_Service" className="accordion-link">
+                More…
+          </Link>
         </p>
         <h2 className='bottom_h2_maintaining'>
           No Dumb Questions
