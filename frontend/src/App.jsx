@@ -78,6 +78,7 @@ import Reinstatement from './pages/Maintaining_A_BUsiness Navbar/Reinstatement/R
 import Mail_Forwarding_Service from './pages/Maintaining_A_BUsiness Navbar/Mail Forwarding Service/Mail_Forwarding_Service';
 import How_To_Incorporate from './pages/Learning Center Navbar/How To Incorporate/How_To_Incorporate';
 import Protecting_Your_Investment from './pages/Learning Center Navbar/Protecting Your Investment/Protecting_Your_Investment';
+import Our_Services from './pages/Learning Center Navbar/Our Services/Our_Services';
 
 //downlaod guide info page
 import DownloadGuideInfo from './pages/downloadGuide/DownloadGuideInfo';
@@ -124,6 +125,7 @@ const App = () => {
               <Route path='/How_To_Incorporate' element={< How_To_Incorporate/>} />
               <Route path='/Business_Glossary' element={< Business_Glossary/>} />
               <Route path='/Protecting_Your_Investment' element={<Protecting_Your_Investment />} />
+              <Route path='/Our_Services' element={<Our_Services />} />
 
 
 

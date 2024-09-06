@@ -112,7 +112,7 @@ const Learningcenter = () => {
           <Accordion
             title="Our Services"
             content="We offer many services to help start and grown your small business."
-            link="#"
+            link="/Our_Services"
             isOpen={openAccordionIndex['exploration'] === 7}
             onClick={() => handleAccordionClick('exploration', 7)}
           />
