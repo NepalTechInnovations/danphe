@@ -91,7 +91,7 @@ const Learningcenter = () => {
           <Accordion
             title="Business Comparison Chart"
             content="Before you begin the incorporation process, you'll need to choose a business structure. Review our Business Comparison Chart below for the advantages of forming a c corporation, s corporation, or LLC."
-            link="#"
+            link="/Business_Comparision_Chart"
             isOpen={openAccordionIndex['exploration'] === 4}
             onClick={() => handleAccordionClick('exploration', 4)}
           />

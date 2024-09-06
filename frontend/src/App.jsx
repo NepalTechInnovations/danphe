@@ -62,7 +62,7 @@ import Make_a_Payment from "./pages/Maintaining_A_BUsiness Navbar/Make a Payment
 import Maintaining_a_Business from "./pages/Maintaining_A_BUsiness Navbar/More/Maintaining_a_Business"
 import NonProfit_501_Status from "./pages/Maintaining_A_BUsiness Navbar/NonProfit 501 (C) Status/NonProfit_501_Status"
 import Register_in_Additional_States from "./pages/Maintaining_A_BUsiness Navbar/Register in Additional States/Register_in_Additional_States"
-import ComparisonChart from './pages/Learning Center Navbar/Benefits of Incorporating/Comparision chart/ComparisonChart';
+import ComparisionChart from './pages/Learning Center Navbar/Comparision chart/ComparisonChart';
 import CSC_Navigator from './pages/Maintaining_A_BUsiness Navbar/CSC Navigator/CSC_Navigator';
 import Corporate_and_LLC_Kits from './pages/Maintaining_A_BUsiness Navbar/Corporate and LLC Kits/Corporate_and_LLC_Kits';
 import Certified_Copies from './pages/Maintaining_A_BUsiness Navbar/Certified Copies/Certified_Copies';
@@ -117,7 +117,7 @@ const App = () => {
               <Route path='/Industry_specific_information' element={<Industry_specific_information />} />
               <Route path='/Tax_filings' element={<Tax_filings />} />              <Route path='/State_guides' element={<State_guides />} />
               <Route path='/Learningcenter' element={<Learningcenter />} />
-              <Route path='/Business_Comparision_Chart' element={< ComparisonChart/>} />
+              <Route path='/Business_Comparision_Chart' element={< ComparisionChart/>} />
               <Route path='/How_To_Incorporate' element={< How_To_Incorporate/>} />
 
 
