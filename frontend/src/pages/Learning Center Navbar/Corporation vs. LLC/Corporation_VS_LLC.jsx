@@ -17,7 +17,7 @@ const Corporation_VS_LLC = () => {
           <p className='corp_vs_llc_paragraph'>
             A limited liability company (LLC) is a type of business structure that offers personal liability protection, as well as a few tax advantages. The “LL,” or limited liability, in LLC is what protects your personal assets in the event of a judgment against your company. Traditional corporations offer limited liability as well, so let’s focus on the structural and taxation differences to explain the differences of LLCs vs. corporations in the chart below.
           </p>
-          <table className="comparison-table">
+          <table className="corp_vs_llc_table">
             <thead>
               
               <tr>
