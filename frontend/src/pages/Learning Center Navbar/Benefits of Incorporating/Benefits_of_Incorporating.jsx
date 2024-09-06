@@ -1,7 +1,6 @@
 import React from 'react';
 import './Benefits_of_Incorporating.css';
 import { Link, useNavigate } from 'react-router-dom';
-import ComparisonChart from './Comparision chart/ComparisonChart';
 
 const BenefitsOfIncorporating = () => {
   const navigate = useNavigate();
@@ -61,8 +60,8 @@ const BenefitsOfIncorporating = () => {
             <li>Structure flexibility</li>
           </ul>
           <p className="benefits_paragraph">
-            Learn more about the similarities and differences with our comprehensive 
-            <Link to="/ComparisonChart">Comparison chart</Link>
+            Learn more about the similarities and differences with our comprehensive&nbsp;
+            <Link to="/ComparisonChart">Comparison chart</Link>.
 
           </p>
 
