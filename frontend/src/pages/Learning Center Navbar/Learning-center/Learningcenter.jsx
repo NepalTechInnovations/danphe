@@ -84,7 +84,7 @@ const Learningcenter = () => {
           <Accordion
             title="Incorporate vs. LLC"
             content="Small business owners should consider the advantages of both a corporation and an LLC when forming a new company."
-            link="#"
+            link="/Corporation_VS_LLC"
             isOpen={openAccordionIndex['exploration'] === 3}
             onClick={() => handleAccordionClick('exploration', 3)}
           />
