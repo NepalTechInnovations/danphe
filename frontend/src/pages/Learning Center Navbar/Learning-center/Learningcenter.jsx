@@ -98,7 +98,7 @@ const Learningcenter = () => {
           <Accordion
             title="Business Glossary"
             content="Browse or search business terms in the online business glossary. Here you will find the definition of incorporate, information on business terms, both specific to incorporation and otherwise."
-            link="#"
+            link="/Business_Glossary"
             isOpen={openAccordionIndex['exploration'] === 5}
             onClick={() => handleAccordionClick('exploration', 5)}
           />

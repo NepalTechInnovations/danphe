@@ -32,6 +32,8 @@ import Benefits_of_Incorporating from "./pages/Learning Center Navbar/Benefits o
 import StartUp_Task from "./pages/Learning Center Navbar/Start-up Tasks/StartUp_Task";
 import Corporation_VS_LLC from "./pages/Learning Center Navbar/Corporation vs. LLC/Corporation_VS_LLC";
 import Incorporation_101 from "./pages/Learning Center Navbar/Incorporation 101/Incorporation_101";
+import Business_Glossary from './pages/Learning Center Navbar/Business Glossary/Business_Glossary';
+
 import Industry_specific_information from "./pages/Learning Center Navbar/Industry Specific Information/Industry_specific_information";
 import Tax_filings from "./pages/Learning Center Navbar/Tax Filings & Deducations/Tax_filings";
 import State_guides from "./pages/Learning Center Navbar/State Guides/State_guides";
@@ -119,6 +121,7 @@ const App = () => {
               <Route path='/Learningcenter' element={<Learningcenter />} />
               <Route path='/Business_Comparision_Chart' element={< ComparisionChart/>} />
               <Route path='/How_To_Incorporate' element={< How_To_Incorporate/>} />
+              <Route path='/Business_Glossary' element={< Business_Glossary/>} />
 
 
 
