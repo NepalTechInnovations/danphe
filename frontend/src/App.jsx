@@ -72,6 +72,7 @@ import Delaware_E_Filing from './pages/Maintaining_A_BUsiness Navbar/Delaware E-
 import Amendments from './pages/Maintaining_A_BUsiness Navbar/Amendments/Amendments';
 import Entity_Conversion from './pages/Maintaining_A_BUsiness Navbar/Entity Conversion/Entity_Conversion';
 import Dissolution from './pages/Maintaining_A_BUsiness Navbar/Dissolution/Dissolution';
+import Reinstatement from './pages/Maintaining_A_BUsiness Navbar/Reinstatement/Reinstatement';
 
 //downlaod guide info page
 import DownloadGuideInfo from './pages/downloadGuide/DownloadGuideInfo';
@@ -158,6 +159,7 @@ const App = () => {
               <Route path='/Amendments' element={<Amendments />} />
               <Route path='/Entity_Conversion' element={<Entity_Conversion />} />
               <Route path='/Dissolution' element={<Dissolution />} />
+              <Route path='/Reinstatement' element={<Reinstatement />} />
 
             {/* Download guide */}
               <Route path= '/download-guide-info' element={<DownloadGuideInfo/>} />

@@ -221,7 +221,7 @@ const MaintainingABusiness = () => {
           <Accordion
             title="Reinstatement"
             content="Companies that fail to meet their annual filing obligations risk losing their good standing. If your company has been voided or dissolved by the state for failure to meet its good standing requirements, incorporate.com can help reinstate it. We'll pinpoint the reasons your business has fallen out of good standing and help you take the needed actions to return it to full status."
-            link="/to-do"
+            link="/Reinstatement"
             isOpen={openAccordionIndex['other_filings'] === 6}
             onClick={() => handleAccordionClick('other_filings', 6)}
           />
