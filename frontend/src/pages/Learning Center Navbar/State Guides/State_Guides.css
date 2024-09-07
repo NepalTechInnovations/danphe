@@ -64,3 +64,18 @@
     font-size:14px;
 }
 
+@media (max-width: 768px) {
+    .bottom_bar_state_guides{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .left_side_state_guides {
+        width: 100%;
+    }
+
+    .right_side_state_guides {
+        width: 80%;
+    }
+}
