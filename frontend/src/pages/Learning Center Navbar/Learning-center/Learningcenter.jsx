@@ -141,7 +141,7 @@ const Learningcenter = () => {
           <Accordion
             title="Start-up Tasks"
             content="Ascend presents an educational video and listing of tasks to help you get your business started."
-            link="#"
+            link="/StartUp_Task"
             isOpen={openAccordionIndex['education'] === 0}
             onClick={() => handleAccordionClick('education', 0)}
           />
