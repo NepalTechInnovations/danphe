@@ -85,6 +85,7 @@ import Staying_Compliant from './pages/Learning Center Navbar/Staying Compliant/
 import Federal_Requirements from './pages/Learning Center Navbar/Federal Requirements/Federal_Requirements';
 import Top_10_Business_Mistakes from './pages/Learning Center Navbar/Top 10 Business Mistakes/Top_10_Business_Mistakes';
 import Writing_A_Business_Plan from './pages/Learning Center Navbar/Writing A Business Plan/Writing_A_Business_Plan';
+import Business_Compliance_Guide from './pages/Learning Center Navbar/Business Compliance: A Guide for Enterpreneurs/Business_Compliance_Guide';
 
 //downlaod guide info page
 import DownloadGuideInfo from './pages/downloadGuide/DownloadGuideInfo';
@@ -138,6 +139,7 @@ const App = () => {
               <Route path='/Federal_Requirements' element={<Federal_Requirements />} />
               <Route path='/Top_10_Business_Mistakes' element={<Top_10_Business_Mistakes />} />
               <Route path='/Writing_A_Business_Plan' element={<Writing_A_Business_Plan />} />
+              <Route path='/Business_Compliance_Guide' element={<Business_Compliance_Guide />} />
 
 
 

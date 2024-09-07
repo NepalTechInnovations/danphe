@@ -176,7 +176,7 @@ const Learningcenter = () => {
           <Accordion
             title="Business Compliance: A Guide for Entrepreneurs"
             content="Business compliance is a catch-all term for how well a company’s follows the laws and regulations governing its business. Laws will vary depending on your industry, where your business is based, and how you’ve chosen to structure your company."
-            link="#"
+            link="/Business_Compliance_Guide"
             isOpen={openAccordionIndex['education'] === 5}
             onClick={() => handleAccordionClick('education', 5)}
           />
