@@ -148,7 +148,7 @@ const Learningcenter = () => {
           <Accordion
             title="Staying Compliant"
             content="As the owner of a corporation or limited liability company (LLC), you need to know and understand the legal aspects of starting and running a business. Compliance refers to all of the federal, state, and local rules required to keep your corporation or LLC in good standing with the state(s) where it conducts business."
-            link="#"
+            link="/Staying_Compliant"
             isOpen={openAccordionIndex['education'] === 1}
             onClick={() => handleAccordionClick('education', 1)}
           />
