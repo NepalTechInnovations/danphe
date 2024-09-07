@@ -80,6 +80,7 @@ import How_To_Incorporate from './pages/Learning Center Navbar/How To Incorporat
 import Protecting_Your_Investment from './pages/Learning Center Navbar/Protecting Your Investment/Protecting_Your_Investment';
 import Our_Services from './pages/Learning Center Navbar/Our Services/Our_Services';
 import Benefits_of_Delaware_LLC from './pages/Learning Center Navbar/Benefits of Delaware LLC/Benefits_of_Delaware_LLC';
+import How_To_Start_a_Franchise_10_Steps from './pages/Learning Center Navbar/How To Start a Franchise 10 steps/How_To_Start_a_Franchise_10_Steps';
 
 //downlaod guide info page
 import DownloadGuideInfo from './pages/downloadGuide/DownloadGuideInfo';
@@ -128,6 +129,7 @@ const App = () => {
               <Route path='/Protecting_Your_Investment' element={<Protecting_Your_Investment />} />
               <Route path='/Our_Services' element={<Our_Services />} />
               <Route path='/Benefits_of_Delaware_LLC' element={<Benefits_of_Delaware_LLC />} />
+              <Route path='/How_To_Start_a_Franchise_10_Steps' element={<How_To_Start_a_Franchise_10_Steps />} />
 
 
 

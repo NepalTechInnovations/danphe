@@ -126,7 +126,7 @@ const Learningcenter = () => {
           <Accordion
             title="How to Start a Franchise in 10 Steps"
             content=" this sound familiar? You’d like to start a business, and you are thinking of buying a franchise, but you are not sure where to start."
-            link="#"
+            link="/How_To_Start_a_Franchise_10_Steps"
             isOpen={openAccordionIndex['exploration'] === 9}
             onClick={() => handleAccordionClick('exploration', 9)}
           />
