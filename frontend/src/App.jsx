@@ -93,6 +93,9 @@ import DownloadGuideInfo from './pages/downloadGuide/DownloadGuideInfo';
 import ThankYouGuide from './pages/downloadGuide/ThankYouGuide';
 
 
+//state guides
+import Alabama from './pages/Learning Center Navbar/State Guides/By State/Alabama/Alabama';
+
 
 
 
@@ -143,6 +146,10 @@ const App = () => {
               <Route path='/Business_Compliance_Guide' element={<Business_Compliance_Guide />} />
               <Route path='/10_Steps_to_Form_A_Business' element={<Steps_to_Form_A_Business />} />
               <Route path='/State_Guides' element={<State_Guides />} />
+
+
+              {/* State Guides */}
+              <Route path='/Learning_Center/Alabama' element={<Alabama />} />
 
 
 
