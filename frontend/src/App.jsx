@@ -36,7 +36,7 @@ import Business_Glossary from './pages/Learning Center Navbar/Business Glossary/
 
 import Industry_specific_information from "./pages/Learning Center Navbar/Industry Specific Information/Industry_specific_information";
 import Tax_filings from "./pages/Learning Center Navbar/Tax Filings & Deducations/Tax_filings";
-import State_guides from "./pages/Learning Center Navbar/State Guides/State_guides";
+import State_Guides from "./pages/Learning Center Navbar/State Guides/State_Guides";
 import Learningcenter from "./pages/Learning Center Navbar/Learning-center/Learningcenter";
 import Starting_A_Business from "./pages/Starting Business Navbar/Starting_A_Business/Starting_A_Business";
 import Business_Entity_Types from './pages/Starting Business Navbar/Business_Entity_Types/Business_Entity_Types';
@@ -127,7 +127,7 @@ const App = () => {
               <Route path='/Benefits_of_Incorporating' element={<Benefits_of_Incorporating />} />
               <Route path='/Incorporation_101' element={<Incorporation_101 />} />
               <Route path='/Industry_specific_information' element={<Industry_specific_information />} />
-              <Route path='/Tax_filings' element={<Tax_filings />} />              <Route path='/State_guides' element={<State_guides />} />
+              <Route path='/Tax_filings' element={<Tax_filings />} />
               <Route path='/Learningcenter' element={<Learningcenter />} />
               <Route path='/Business_Comparision_Chart' element={< ComparisionChart/>} />
               <Route path='/How_To_Incorporate' element={< How_To_Incorporate/>} />
@@ -142,6 +142,7 @@ const App = () => {
               <Route path='/Writing_A_Business_Plan' element={<Writing_A_Business_Plan />} />
               <Route path='/Business_Compliance_Guide' element={<Business_Compliance_Guide />} />
               <Route path='/10_Steps_to_Form_A_Business' element={<Steps_to_Form_A_Business />} />
+              <Route path='/State_Guides' element={<State_Guides />} />
 
 
 

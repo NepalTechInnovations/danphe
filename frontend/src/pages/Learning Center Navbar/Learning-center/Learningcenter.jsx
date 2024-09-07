@@ -198,7 +198,7 @@ const Learningcenter = () => {
           <Accordion
             title="State Guides"
             content="Most of our customers form their new companies in the state where they conduct the majority of their business."
-            link="#"
+            link="/State_Guides"
             isOpen={openAccordionIndex['guides'] === 1}
             onClick={() => handleAccordionClick('guides', 1)}
           />

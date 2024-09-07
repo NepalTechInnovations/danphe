@@ -1,8 +1,8 @@
 import React from 'react'
-import "./State_guides.css";
+import "./State_Guides.css";
 
 
-const State_guides = () => {
+const State_Guides = () => {
   return (
     <div className='main_state_guides' >
       <div className='top_main_hero_section_state_guides'>
@@ -43,4 +43,4 @@ const State_guides = () => {
   )
 }
 
-export default State_guides
+export default State_Guides
