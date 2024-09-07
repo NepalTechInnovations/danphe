@@ -191,7 +191,7 @@ const Learningcenter = () => {
           <Accordion
             title="10 Steps to Form a Business"
             content="Forming a business can be a confusing and stressful process, unless you're prepared and you've got a good idea of what you need to do."
-            link="#"
+            link="/10_Steps_to_Form_A_Business"
             isOpen={openAccordionIndex['guides'] === 0}
             onClick={() => handleAccordionClick('guides', 0)}
           />
