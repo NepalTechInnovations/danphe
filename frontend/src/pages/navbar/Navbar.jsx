@@ -182,7 +182,7 @@ const Navbar = () => {
         <NavLink className='dropdownLink_heading' to="/State_guides">State Guides</NavLink>
       </Menu.Item>
       <Menu.Item key="heading8">
-        <NavLink className='dropdownLink_heading' to="/Learningcenter">Learning Center</NavLink>
+        <NavLink className='dropdownLink_heading' to="/Learningcenter">More</NavLink>
       </Menu.Item>
     </Menu>
   );
