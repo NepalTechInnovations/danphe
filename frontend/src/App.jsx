@@ -79,6 +79,7 @@ import Mail_Forwarding_Service from './pages/Maintaining_A_BUsiness Navbar/Mail 
 import How_To_Incorporate from './pages/Learning Center Navbar/How To Incorporate/How_To_Incorporate';
 import Protecting_Your_Investment from './pages/Learning Center Navbar/Protecting Your Investment/Protecting_Your_Investment';
 import Our_Services from './pages/Learning Center Navbar/Our Services/Our_Services';
+import Benefits_of_Delaware_LLC from './pages/Learning Center Navbar/Benefits of Delaware LLC/Benefits_of_Delaware_LLC';
 
 //downlaod guide info page
 import DownloadGuideInfo from './pages/downloadGuide/DownloadGuideInfo';
@@ -126,6 +127,7 @@ const App = () => {
               <Route path='/Business_Glossary' element={< Business_Glossary/>} />
               <Route path='/Protecting_Your_Investment' element={<Protecting_Your_Investment />} />
               <Route path='/Our_Services' element={<Our_Services />} />
+              <Route path='/Benefits_of_Delaware_LLC' element={<Benefits_of_Delaware_LLC />} />
 
 
 

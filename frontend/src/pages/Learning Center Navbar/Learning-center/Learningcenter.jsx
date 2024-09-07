@@ -119,7 +119,7 @@ const Learningcenter = () => {
           <Accordion
             title="Should I start a Delaware LLC?"
             content="When starting a business, there are some initial decisions that are key to helping create a foundation for a successful future. Among the most important: should you incorporate?"
-            link="#"
+            link="/Benefits_of_Delaware_LLC"
             isOpen={openAccordionIndex['exploration'] === 8}
             onClick={() => handleAccordionClick('exploration', 8)}
           />
