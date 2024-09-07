@@ -169,7 +169,7 @@ const Learningcenter = () => {
           <Accordion
             title="Writing a Business Plan"
             content="Every business needs a documented plan to help focus its direction, outline operations, and secure investors. Get prepared before you start your business to maximize your chances for success."
-            link="#"
+            link="/Writing_A_Business_Plan"
             isOpen={openAccordionIndex['education'] === 4}
             onClick={() => handleAccordionClick('education', 4)}
           />
