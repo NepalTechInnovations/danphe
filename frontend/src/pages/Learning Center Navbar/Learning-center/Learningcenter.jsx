@@ -155,14 +155,14 @@ const Learningcenter = () => {
           <Accordion
             title="Federal Requirements"
             content="To ensure that your business complies with government rules, familiarize yourself with requirements for employers and businesses in your industry."
-            link="#"
+            link="/Federal_Requirements"
             isOpen={openAccordionIndex['education'] === 2}
             onClick={() => handleAccordionClick('education', 2)}
           />
           <Accordion
             title="Top 10 Business Mistakes"
             content="Starting a new business takes time and planning. There are also some things you want to avoid when creating your company."
-            link="#"
+            link="/Top_10_Business_Mistakes"
             isOpen={openAccordionIndex['education'] === 3}
             onClick={() => handleAccordionClick('education', 3)}
           />

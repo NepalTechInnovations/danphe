@@ -82,6 +82,8 @@ import Our_Services from './pages/Learning Center Navbar/Our Services/Our_Servic
 import Benefits_of_Delaware_LLC from './pages/Learning Center Navbar/Benefits of Delaware LLC/Benefits_of_Delaware_LLC';
 import How_To_Start_a_Franchise_10_Steps from './pages/Learning Center Navbar/How To Start a Franchise 10 steps/How_To_Start_a_Franchise_10_Steps';
 import Staying_Compliant from './pages/Learning Center Navbar/Staying Compliant/Staying_Compliant';
+import Federal_Requirements from './pages/Learning Center Navbar/Federal Requirements/Federal_Requirements';
+import Top_10_Business_Mistakes from './pages/Learning Center Navbar/Top 10 Business Mistakes/Top_10_Business_Mistakes';
 
 //downlaod guide info page
 import DownloadGuideInfo from './pages/downloadGuide/DownloadGuideInfo';
@@ -132,6 +134,8 @@ const App = () => {
               <Route path='/Benefits_of_Delaware_LLC' element={<Benefits_of_Delaware_LLC />} />
               <Route path='/How_To_Start_a_Franchise_10_Steps' element={<How_To_Start_a_Franchise_10_Steps />} />
               <Route path='/Staying_Compliant' element={<Staying_Compliant />} />
+              <Route path='/Federal_Requirements' element={<Federal_Requirements />} />
+              <Route path='/Top_10_Business_Mistakes' element={<Top_10_Business_Mistakes />} />
 
 
 
