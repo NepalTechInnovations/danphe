@@ -25,7 +25,7 @@ const Tabs_Iowa = () => {
             <h2>LLC, Business License, Incorporation</h2>
 
             <p>
-            WWith the 30<sup>th</sup> largest population in the United States, Iowa services both large and small businesses. Iowa's major industries include agriculture and manufacturing. Regardless of your industry, we can help you take advantage of Iowa's business services.
+            With the 30<sup>th</sup> largest population in the United States, Iowa services both large and small businesses. Iowa's major industries include agriculture and manufacturing. Regardless of your industry, we can help you take advantage of Iowa's business services.
             </p>
             
             <div className="tabs-Iowa-tabs">
