@@ -112,6 +112,7 @@ import Iowa from './pages/Learning Center Navbar/State Guides/By State/Iowa/Iowa
 import Kansas from './pages/Learning Center Navbar/State Guides/By State/Kansas/Kansas';
 import Kentucky from './pages/Learning Center Navbar/State Guides/By State/Kentucky/Kentucky';
 import Louisiana from './pages/Learning Center Navbar/State Guides/By State/Louisiana/Louisiana';
+import Maine from './pages/Learning Center Navbar/State Guides/By State/Maine/Maine';
 
 
 const App = () => {
@@ -182,6 +183,7 @@ const App = () => {
               <Route path='/Learning_Center/Kansas' element={<Kansas />} />
               <Route path='/Learning_Center/Kentucky' element={<Kentucky />} />
               <Route path='/Learning_Center/Louisiana' element={<Louisiana />} />
+              <Route path='/Learning_Center/Maine' element={<Maine />} />
 
 
               {/* starting a business navbar */}
