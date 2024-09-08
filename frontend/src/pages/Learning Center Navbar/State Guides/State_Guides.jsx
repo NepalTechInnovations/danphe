@@ -80,7 +80,7 @@ const State_Guides = () => {
 
           <button className='state_getstarted'>
             Go
-            {/* Naviagte to /learning-center/selectbox.value */}
+            {/* Naviagte to /Learning_Center/selectbox.value */}
           </button>
 
         </div>
