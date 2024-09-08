@@ -102,6 +102,7 @@ import California from './pages/Learning Center Navbar/State Guides/By State/Cal
 import Colorado from './pages/Learning Center Navbar/State Guides/By State/Colorado/Colorado';
 import Connecticut from './pages/Learning Center Navbar/State Guides/By State/Connecticut/Connecticut';
 import Delaware from './pages/Learning Center Navbar/State Guides/By State/Delaware/Delaware';
+import Florida from './pages/Learning Center Navbar/State Guides/By State/Florida/Florida';
 
 
 
@@ -163,6 +164,7 @@ const App = () => {
               <Route path='/Learning_Center/Colorado' element={<Colorado />} />
               <Route path='/Learning_Center/Connecticut' element={<Connecticut />} />
               <Route path='/Learning_Center/Delaware' element={<Delaware />} />
+              <Route path='/Learning_Center/Florida' element={<Florida />} />
 
 
               {/* starting a business navbar */}
