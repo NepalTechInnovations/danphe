@@ -85,7 +85,7 @@ import Staying_Compliant from './pages/Learning Center Navbar/Staying Compliant/
 import Federal_Requirements from './pages/Learning Center Navbar/Federal Requirements/Federal_Requirements';
 import Top_10_Business_Mistakes from './pages/Learning Center Navbar/Top 10 Business Mistakes/Top_10_Business_Mistakes';
 import Writing_A_Business_Plan from './pages/Learning Center Navbar/Writing A Business Plan/Writing_A_Business_Plan';
-import Business_Compliance_Guide from './pages/Learning Center Navbar/Business Compliance: A Guide for Enterpreneurs/Business_Compliance_Guide';
+import Business_Compliance_Guide from './pages/Learning Center Navbar/Business Compliance A Guide for Enterpreneurs/Business_Compliance_Guide';
 import Steps_to_Form_A_Business from './pages/Learning Center Navbar/10 Steps to Form a Business/10_Steps_to_Form_A_Business';
 
 //downlaod guide info page
