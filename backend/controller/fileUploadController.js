@@ -43,7 +43,7 @@ exports.getAllDocuments = async (req, res) => {
     try {
         const getAllDocuments = await fileUploadModel.find({});
         if (getAllDocuments.length === 0) {
-            return res.status(404).json({ success: false, message: 'No products found' });
+            return res.status(404).json({ success: false, message: 'No Documents found' });
         }
         return res.status(200).json({ success: true, message: 'All Documents found', getAllDocuments });
         

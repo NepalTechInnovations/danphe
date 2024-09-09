@@ -1,6 +1,4 @@
 
-
-
 const mongoose = require('mongoose');
 
 const OrderSchema = new mongoose.Schema({
@@ -27,7 +25,16 @@ const OrderSchema = new mongoose.Schema({
         type: String,
         enum: ['pending', 'processing', 'verified'],
         default: 'pending'
+    },
+
+    userDocuments:{
+        type: mongoose.Schema.Types.ObjectId,
+        ref: 'Documents',
+        required: true
     }
+
+
+
 }, { timestamps: true });
 
 module.exports = mongoose.model('Order', OrderSchema);

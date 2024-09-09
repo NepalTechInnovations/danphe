@@ -122,6 +122,9 @@ import Missouri from './pages/Learning Center Navbar/State Guides/By State/Misso
 import Montana from './pages/Learning Center Navbar/State Guides/By State/Montana/Montana';
 import Nebraska from './pages/Learning Center Navbar/State Guides/By State/Nebraska/Nebraska';
 import Nevada from './pages/Learning Center Navbar/State Guides/By State/Nevada/Nevada';
+
+import UserDocuments from './components/admin/dashboardMainContent/userDetails/UserDocuments';
+
 import New_Hampshire from './pages/Learning Center Navbar/State Guides/By State/New Hampshire/New_Hampshire';
 import New_Jersey from './pages/Learning Center Navbar/State Guides/By State/New Jersey/New_Jersey';
 import New_Mexico from './pages/Learning Center Navbar/State Guides/By State/New Mexico/New_Mexico';
@@ -131,6 +134,7 @@ import North_Dakota from './pages/Learning Center Navbar/State Guides/By State/N
 import Ohio from './pages/Learning Center Navbar/State Guides/By State/Ohio/Ohio';
 import Oklahoma from './pages/Learning Center Navbar/State Guides/By State/Oklahoma/Oklahoma';
 import Oregon from './pages/Learning Center Navbar/State Guides/By State/Oregon/Oregon';
+
 
 
 const App = () => {
@@ -282,7 +286,9 @@ const App = () => {
                 <Route path='admin/createPackage' element={<CreatePackage />} />
                 <Route path='admin/manage-orders' element={<ManageOrders />} />
                 <Route path='admin/user-details' element={<UserDetails/>} />
+                <Route path='admin/user-documents' element={<UserDocuments/>} />
               </Route>
+
             </Route>
           </Routes>
         </Suspense>
@@ -294,5 +300,3 @@ const App = () => {
 
 export default App;
 
-
-//testing

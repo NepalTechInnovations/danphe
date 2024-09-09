@@ -25,6 +25,7 @@ routes.get('/yourOrder', requireLogin, controller.getYourOrders);
 routes.put('/updateOrderStatus', requireLogin, controller.updateOrderStatus);
 routes.get('/order-count',requireLogin, controller.getOrderCount); 
 
+
 //stripe payment route
 routes.post('/create-payment-intent', controller.createPaymentIntent);
 

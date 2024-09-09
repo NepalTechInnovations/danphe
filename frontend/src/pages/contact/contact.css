@@ -107,6 +107,19 @@
   .message {
     margin: 1%;
   }
+
+
+
+  .error-message {
+    color: red;
+  }
+  
+  .success-message {
+    color: green;
+  }
+  
+
+
 @media(max-width:768px){
     .contactHeader {
         font-size: 30px;
@@ -127,3 +140,7 @@
         font-size: 16px;
       }
 }  
+
+
+
+
