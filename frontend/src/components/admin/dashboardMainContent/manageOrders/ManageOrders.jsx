@@ -114,6 +114,8 @@ const ManageOrders = () => {
     const fetchOrders = async () => {
       try {
         const response = await axios.get(`${import.meta.env.VITE_REACT_APP_URL}/api/v1/order/getOrders`);
+        console.log('order res', response)
+        
         setOrders(response.data);
       } catch (error) {
         console.error('Error fetching orders', error);
