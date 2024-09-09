@@ -25,7 +25,7 @@ const Tabs_Delaware = () => {
             <h2>LLC, Business License, Incorporation</h2>
 
             <p>
-            Over 1 million businesses call Delaware their legal home. More than half of the corporations that make up the Fortune 500® are incorporated in the State of Delaware. Before you start your business, navigate through the Delaware Corporation Knowledge Hub to learn more about the many advantages the state offers for businesses both small and large. Also, learn how incorporate.com is able to support you at every step of your business formation journey managing your paperwork and state filings so that you can focus on your business.
+            The District of Columbia services both large and small businesses. Major industries in the District of Columbia include government and legal services. Regardless of your industry, we can help you take advantage of the District of Columbia's business services.
             </p>
             
             <div className="tabs-Delaware-tabs">
