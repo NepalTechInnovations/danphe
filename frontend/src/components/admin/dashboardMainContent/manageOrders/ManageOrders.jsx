@@ -107,7 +107,7 @@ const ManageOrders = () => {
   const [orders, setOrders] = useState([]);
   const [selectedStatuses, setSelectedStatuses] = useState({});
   const [currentPage, setCurrentPage] = useState(1);
-  const pageSize = 6; // Number of orders per page
+  const pageSize = 5; // Number of orders per page for pagination 😊
   const statuses = ['pending', 'processing', 'verified'];
 
   useEffect(() => {
@@ -181,6 +181,7 @@ const ManageOrders = () => {
                 </div>
                 <div>
                   <button className='adminUpdateBtn' onClick={() => updateStatus(order._id)}>Update</button>
+                  <button className='adminUpdateBtn'>view docs</button>
                 </div>
               </div>
             ))}

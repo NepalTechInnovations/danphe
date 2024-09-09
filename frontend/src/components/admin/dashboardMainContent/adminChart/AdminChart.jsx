@@ -1,45 +1,10 @@
-// import React from 'react';
-// import { Progress } from 'antd';
-// import '../adminChart/adminChart.css';
-// import Orders from '../orders/Orders';
-// import PaymentChart from '../payment/PaymentChart';
-
-// const AdminChart = () => {
-//   return (
-//     <>
-//       <div className='admin_Grid_Dashboard'>
-//         <div className='charts chartBox1'><Orders/></div>
-//         <div className='charts chartBox2'>Progress</div>
-//         <div className='charts chartBox3'><PaymentChart/></div>
-//         <div className='charts chartBox4'>box4</div>
-//         <div className='charts chartBox5'>box5</div>
-//         <div className='charts chartBox6'>box6</div>
-//         <div className='charts chartBox7'>
-//             <h3>Total Percentage of Work</h3>
-//           <Progress type="circle" percent={70} />
-//         </div>
-//         <div className='charts chartBox8'>box8</div>
-//       </div>
-//     </>
-//   )
-// }
-
-// export default AdminChart;
-
-
-
-
-
-
-
-
-
-
-import React from 'react';
+import React, { useState, useEffect } from 'react';
+import axios from 'axios';
 import '../adminChart/adminChart.css';
 import { Line, Bar } from 'react-chartjs-2';
 import 'chart.js/auto';
 
+// Static data for demonstration; replace with fetched data as needed
 const dataOrders = {
   labels: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul'],
   datasets: [
@@ -93,6 +58,23 @@ const dataBounceRate = {
 };
 
 const AdminChart = () => {
+  const [orderCount, setOrderCount] = useState(0);
+
+  useEffect(() => {
+    // Fetch total order count from the backend
+    axios.get(`${import.meta.env.VITE_REACT_APP_URL}/api/v1/orders/order-count`, { withCredentials: true })
+      .then(response => {
+        if (response.data.success) {
+          setOrderCount(response.data.orderCount);
+        } else {
+          console.error('Failed to fetch order count');
+        }
+      })
+      .catch(error => {
+        console.error('Error fetching order count:', error);
+      });
+  }, []);
+
   return (
     <div className="admin_Grid_container">
       <div className="charts chartBox1">
@@ -100,12 +82,12 @@ const AdminChart = () => {
         <p>You are the best seller of this month</p>
         <p style={{ fontSize: '24px', fontWeight: 'bold' }}>$168.5K</p>
         <p>58% of sales target</p>
-        <button>View Details</button>
+        {/* <button>View Details</button> */}
       </div>
       <div className="charts chartBox2">
         <h3>Total Orders</h3>
         <Line data={dataOrders} />
-        <p>248k</p>
+        <p>{orderCount} orders</p>
       </div>
       <div className="charts chartBox3">
         <h3>Total Sales</h3>

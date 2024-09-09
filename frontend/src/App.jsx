@@ -122,6 +122,7 @@ import Missouri from './pages/Learning Center Navbar/State Guides/By State/Misso
 import Montana from './pages/Learning Center Navbar/State Guides/By State/Montana/Montana';
 import Nebraska from './pages/Learning Center Navbar/State Guides/By State/Nebraska/Nebraska';
 import Nevada from './pages/Learning Center Navbar/State Guides/By State/Nevada/Nevada';
+import UserDocuments from './components/admin/dashboardMainContent/userDetails/UserDocuments';
 
 
 const App = () => {
@@ -264,7 +265,9 @@ const App = () => {
                 <Route path='admin/createPackage' element={<CreatePackage />} />
                 <Route path='admin/manage-orders' element={<ManageOrders />} />
                 <Route path='admin/user-details' element={<UserDetails/>} />
+                <Route path='admin/user-documents' element={<UserDocuments/>} />
               </Route>
+              
             </Route>
           </Routes>
         </Suspense>

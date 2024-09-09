@@ -1,5 +1,6 @@
 const contactModel = require("../models/contactModel");
 const companyInfoModel = require('../models/companyInfoModel');
+const UserChat = require("../models/chatModel");
 
 
 exports.contact = async (req, res) => {
@@ -120,6 +121,42 @@ exports.getAllCompanyInfo = async (req, res) => {
 
 
 
+
+
+
+
+
+
+// controllers/userChatController.js
+
+// const UserChat = require ('../models/chatModel');
+
+exports.saveUserChatData = async (req, res) => {
+  try {
+    const userChat = new UserChat({
+      subject: req.body.subject,
+      firstName: req.body.firstName,
+      lastName: req.body.lastName,
+      primaryPhone: req.body.primaryPhone,
+      secondaryPhone: req.body.secondaryPhone,
+      contactEmail: req.body.contactEmail,
+      confirmEmail: req.body.confirmEmail,
+      industry: req.body.industry,
+      orderNumber: req.body.orderNumber,
+      invoiceNumber: req.body.invoiceNumber,
+      message: req.body.message
+    });
+
+    // Save the document to the database
+    await userChat.save();
+
+    // Send a success response
+    res.status(201).json({ message: 'User chat data saved successfully!' });
+  } catch (error) {
+    console.error(error);
+    res.status(500).json({ message: 'Internal server error' });
+  }
+};
 
 
 

@@ -86,19 +86,19 @@ const SideMenu = () => {
       </Link>
 
       <div className="dropdownContainer">
-        <h3 className="dropdownTitle">Testing Heading</h3>
+        {/* <h3 className="dropdownTitle">Testing Heading</h3> */}
         <div className="dropdownContent open"> {/* Keep content open by default */}
           {/* <Link className={`link ${location.pathname === '/dashboard/admin/manage-orders' ? 'active' : ''}`} to={'/dashboard/admin/manage-orders'}> */}
           <Link to={'/dashboard/admin/manage-orders'}> <p className='sideMenuChildHeading'><IoMdArrowDropright className="subItemIcon" /> Manage Orders</p></Link>
          <Link to={'/dashboard/admin/user-details'}> <p className='sideMenuChildHeading'><IoMdArrowDropright className="subItemIcon" />User Details</p></Link>
-          <p className='sideMenuChildHeading'><IoMdArrowDropright className="subItemIcon" /> Test3</p>
-          <p className='sideMenuChildHeading'><IoMdArrowDropright className="subItemIcon" /> Test4</p>
-          <p className='sideMenuChildHeading'><IoMdArrowDropright className="subItemIcon" /> Test5</p>
+         <Link to={'/dashboard/admin/user-documents'}> <p className='sideMenuChildHeading'><IoMdArrowDropright className="subItemIcon" />User Documents</p></Link>
+          {/* <p className='sideMenuChildHeading'><IoMdArrowDropright className="subItemIcon" /> Test4</p>
+          <p className='sideMenuChildHeading'><IoMdArrowDropright className="subItemIcon" /> Test5</p> */}
         </div>
       </div>
 
       <div className="dropdownContainer">
-        <h3 className="dropdownTitle">Manage Package</h3>
+        {/* <h3 className="dropdownTitle">Manage Package</h3> */}
         <div className="dropdownContent open"> {/* Keep content open by default */}
           <Link to='/dashboard/admin/createPackage'>
           {/* <Link className={`link ${location.pathname === '/dashboard/admin/createPackage' ? 'active' : ''}`} to='/dashboard/admin/createPackage'> */}
