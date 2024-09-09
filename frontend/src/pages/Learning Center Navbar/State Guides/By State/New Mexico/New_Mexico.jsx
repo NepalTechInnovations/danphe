@@ -8,7 +8,7 @@ const New_Mexico = () => {
       <div className='top_main_hero_section_New_Mexico'>
         <img src="/img/hero-image-map-compass_usa.jpg" alt="" className='top_New_Mexico_image' />
         <p className='image_over_paragraph_New_Mexico'>
-        New_Mexico
+        New Mexico
         </p>
       </div>
 
