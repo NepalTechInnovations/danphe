@@ -122,9 +122,9 @@ import Missouri from './pages/Learning Center Navbar/State Guides/By State/Misso
 import Montana from './pages/Learning Center Navbar/State Guides/By State/Montana/Montana';
 import Nebraska from './pages/Learning Center Navbar/State Guides/By State/Nebraska/Nebraska';
 import Nevada from './pages/Learning Center Navbar/State Guides/By State/Nevada/Nevada';
-<<<<<<< HEAD
+
 import UserDocuments from './components/admin/dashboardMainContent/userDetails/UserDocuments';
-=======
+
 import New_Hampshire from './pages/Learning Center Navbar/State Guides/By State/New Hampshire/New_Hampshire';
 import New_Jersey from './pages/Learning Center Navbar/State Guides/By State/New Jersey/New_Jersey';
 import New_Mexico from './pages/Learning Center Navbar/State Guides/By State/New Mexico/New_Mexico';
@@ -133,7 +133,7 @@ import North_Carolina from './pages/Learning Center Navbar/State Guides/By State
 import North_Dakota from './pages/Learning Center Navbar/State Guides/By State/North Dakota/North_Dakota';
 import Ohio from './pages/Learning Center Navbar/State Guides/By State/Ohio/Ohio';
 import Oklahoma from './pages/Learning Center Navbar/State Guides/By State/Oklahoma/Oklahoma';
->>>>>>> 343adff3fb88f89521788e8e5004380f64115864
+
 
 
 const App = () => {
@@ -286,7 +286,7 @@ const App = () => {
                 <Route path='admin/user-details' element={<UserDetails/>} />
                 <Route path='admin/user-documents' element={<UserDocuments/>} />
               </Route>
-              
+
             </Route>
           </Routes>
         </Suspense>
