@@ -122,7 +122,18 @@ import Missouri from './pages/Learning Center Navbar/State Guides/By State/Misso
 import Montana from './pages/Learning Center Navbar/State Guides/By State/Montana/Montana';
 import Nebraska from './pages/Learning Center Navbar/State Guides/By State/Nebraska/Nebraska';
 import Nevada from './pages/Learning Center Navbar/State Guides/By State/Nevada/Nevada';
+<<<<<<< HEAD
 import UserDocuments from './components/admin/dashboardMainContent/userDetails/UserDocuments';
+=======
+import New_Hampshire from './pages/Learning Center Navbar/State Guides/By State/New Hampshire/New_Hampshire';
+import New_Jersey from './pages/Learning Center Navbar/State Guides/By State/New Jersey/New_Jersey';
+import New_Mexico from './pages/Learning Center Navbar/State Guides/By State/New Mexico/New_Mexico';
+import New_York from './pages/Learning Center Navbar/State Guides/By State/New York/New_York';
+import North_Carolina from './pages/Learning Center Navbar/State Guides/By State/North Carolina/North_Carolina';
+import North_Dakota from './pages/Learning Center Navbar/State Guides/By State/North Dakota/North_Dakota';
+import Ohio from './pages/Learning Center Navbar/State Guides/By State/Ohio/Ohio';
+import Oklahoma from './pages/Learning Center Navbar/State Guides/By State/Oklahoma/Oklahoma';
+>>>>>>> 343adff3fb88f89521788e8e5004380f64115864
 
 
 const App = () => {
@@ -203,6 +214,14 @@ const App = () => {
               <Route path='/Learning_Center/Montana' element={<Montana />} />
               <Route path='/Learning_Center/Nebraska' element={<Nebraska />} />
               <Route path='/Learning_Center/Nevada' element={<Nevada />} />
+              <Route path='/Learning_Center/New_Hampshire' element={<New_Hampshire />} />
+              <Route path='/Learning_Center/New_Jersey' element={<New_Jersey />} />
+              <Route path='/Learning_Center/New_Mexico' element={<New_Mexico />} />
+              <Route path='/Learning_Center/New_York' element={<New_York />} />
+              <Route path='/Learning_Center/North_Carolina' element={<North_Carolina />} />
+              <Route path='/Learning_Center/North_Dakota' element={<North_Dakota />} />
+              <Route path='/Learning_Center/Ohio' element={<Ohio />} />
+              <Route path='/Learning_Center/Oklahoma' element={<Oklahoma />} />
 
 
               {/* starting a business navbar */}

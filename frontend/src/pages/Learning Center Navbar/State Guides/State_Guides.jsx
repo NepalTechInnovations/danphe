@@ -1,10 +1,19 @@
-import React from 'react'
+import React, { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import "./State_Guides.css";
 
-
 const State_Guides = () => {
+  const [selectedState, setSelectedState] = useState('');
+  const navigate = useNavigate();
+
+  const handleNavigation = () => {
+    if (selectedState) {
+      navigate(`/Learning_Center/${selectedState}`);
+    }
+  };
+
   return (
-    <div className='main_state_guides' >
+    <div className='main_state_guides'>
       <div className='top_main_hero_section_state_guides'>
         <img src="/img/hero-image-map-compass_usa.jpg" alt="" className='top_State_guides' />
         <p className='image_over_paragraph_state'>
@@ -12,21 +21,26 @@ const State_Guides = () => {
         </p>
       </div>
 
-
       <div className='bottom_bar_state_guides'>
         <div className='left_side_state_guides'>
           <p className='paragraph_state_guides'>
-            Most of our customers form their new companies in the state where they conduct the majority of their business. Need more state-specific information to decide what's right for your business?
-            <b>
-              Choose a state from the dropdown for more information.
-            </b>
+            Most of our customers form their new companies in the state where they conduct the majority of their business. Need more state-specific information to decide what's right for your business?&nbsp;
+            <b>Choose a state from the dropdown for more information.</b>
           </p>
         </div>
+
         <div className='right_side_state_guides'>
-          <select name="state" id="state" className='country_state_guide'>
-            <option value="" selected="selected" disabled>Select a State</option>
+          <select
+            name="state"
+            id="state"
+            className='country_state_guide'
+            value={selectedState}
+            onChange={(e) => setSelectedState(e.target.value)}
+          >
+            <option value="" disabled>Select a State</option>
             <option value="Alabama">Alabama</option>
-            <option value="Alaska">Alaska</option><option value="arizona">Arizona</option>
+            <option value="Alaska">Alaska</option>
+            <option value="arizona">Arizona</option>
             <option value="Arkansas">Arkansas</option>
             <option value="California">California</option>
             <option value="Colorado">Colorado</option>
@@ -77,16 +91,13 @@ const State_Guides = () => {
             <option value="Wyoming">Wyoming</option>
           </select>
 
-
-          <button className='state_getstarted'>
+          <button className='state_getstarted' onClick={handleNavigation}>
             Go
-            {/* Naviagte to /Learning_Center/selectbox.value */}
           </button>
-
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default State_Guides
+export default State_Guides;
