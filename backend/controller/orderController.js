@@ -116,45 +116,68 @@ exports.createPaymentIntent = async (req, res) => {
 
 
 
-// *********************new way testing *****************
+// *********************new way order *****************
 
 
 
 // controllers/userDataController.js
+
+
 const UserAllData = require("../models/userAllData");
+
 
 exports.saveOrderDetails = async (req, res) => {
     try {
-      const { cartData, contactInfo, companyInfo, paymentIntentId } = req.body;
-  
-      // Log the received data to check if contactData is included
-      console.log('Received Data:', req.body);
-  
-      if (!cartData || !contactInfo || !paymentIntentId) {
-        return res.status(400).json({ message: 'Missing required data' });
-      }
-  
-      // Ensure that contactData is properly handled
-      const newOrder = new UserAllData({
-        quoteData: cartData,
-        contactData: contactInfo,
-        // companyData: companyInfo,
-        packageData: { paymentIntentId },
-      });
-  
-      const savedOrder = await newOrder.save();
-  
-      res.status(200).json({ message: 'Order details saved successfully', order: savedOrder });
+        console.log('Request user:', req.user);
+
+        if (!req.user) {
+            return res.status(401).json({ message: 'User not authenticated' });
+        }
+
+        const { cartData, contactInfo, paymentIntentId, status } = req.body;
+
+        console.log('Received Data:', req.body);
+
+        if (!cartData || !contactInfo || !paymentIntentId) {
+            return res.status(400).json({ message: 'Missing required data' });
+        }
+
+        const newOrder = new UserAllData({
+            quoteData: cartData,
+            contactData: contactInfo,
+            packageData: { paymentIntentId },
+            user: req.user._id,
+            status: status || 'pending',
+        });
+
+        const savedOrder = await newOrder.save();
+
+        res.status(200).json({ message: 'Order details saved successfully', order: savedOrder });
     } catch (error) {
-      console.error('Error saving order details:', error);
-      res.status(500).json({ error: 'Error saving order details' });
+        console.error('Error saving order details:', error);
+        res.status(500).json({ message: 'Internal server error', error });
     }
-  };
-  
+};
 
 
 
 
+//get single user
+exports.getSingleOrder = async (req, res) => {
+    const userId = req.user._id;
+    try {
+        const orders = await UserAllData.find({ user: userId }).populate('user', 'name');
+        res.status(200).json({ success: true, orderInfo: orders });
+    } catch (err) {
+        res.status(500).json({ success: false, message: err.message });
+    }
+};
+
+
+
+
+
+//get all user data
   exports.getAllUserOrderData = async (req, res) => {
     try {
         const userId = req.user._id;
@@ -164,3 +187,36 @@ exports.saveOrderDetails = async (req, res) => {
         res.status(500).json({ success: false, message: 'Internal server error' });
     }
 };
+
+
+
+
+// update user data status
+
+exports.updateOrderStatus = async (req, res) => {
+    const { orderId, status } = req.body;
+
+    if (!orderId || !status) {
+        return res.status(400).json({ message: 'OrderId and status are required' });
+    }
+
+    try {
+        const order = await UserAllData.findByIdAndUpdate(orderId, { status }, { new: true });
+
+        if (!order) {
+            return res.status(404).json({ sucess: false, message: 'Order not found' });
+        }
+
+        res.status(200).json({ success: true, message: 'Order status updated', order });
+    } catch (err) {
+        console.error('Error updating order status:', err);
+        res.status(500).json({sucess: false, message: 'Internal server error', error: err.message });
+    }
+};
+
+
+
+
+
+
+

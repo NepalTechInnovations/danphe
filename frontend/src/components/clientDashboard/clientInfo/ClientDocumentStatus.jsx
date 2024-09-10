@@ -90,7 +90,6 @@
 
 
 
-
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import { Modal, Pagination } from 'antd';
@@ -108,11 +107,12 @@ const ClientDocumentStatus = () => {
     const fetchDocuments = async () => {
       try {
         const response = await axios.get(`${import.meta.env.VITE_REACT_APP_URL}/api/v1/order/yourOrder`);
-        // console.log(response.data);  
+        console.log(response.data);  
+
         if (response.data.success && Array.isArray(response.data.orderInfo)) {
           setDocuments(response.data.orderInfo);
         } else {
-          console.error('Data fetch was unsuccessful');
+          console.error('Data fetch was unsuccessful or no documents found');
         }
       } catch (error) {
         console.error('Error fetching documents', error);
@@ -163,7 +163,7 @@ const ClientDocumentStatus = () => {
         {paginatedDocuments.map(doc => (
           <div className="rowContainer" key={doc._id}>
             <div className="cellContainer">
-              <p>{doc.items[0]?.heading}</p>  
+              <h4>{doc.quoteData[0]?.heading}</h4>  {/* Accessing `quoteData` instead of `items` */}
             </div>
             <div className="cellContainer">
               <span className={`statusLabel ${getStatusClass(doc.status)}`}>{doc.status}</span>
