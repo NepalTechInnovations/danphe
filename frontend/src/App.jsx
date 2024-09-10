@@ -146,6 +146,7 @@ import Virginia from './pages/Learning Center Navbar/State Guides/By State/Virgi
 import Washington from './pages/Learning Center Navbar/State Guides/By State/Washington/Washington';
 import West_Virginia from './pages/Learning Center Navbar/State Guides/By State/West Virginia/West_Virginia';
 import Wisconsin from './pages/Learning Center Navbar/State Guides/By State/Wisconsin/Wisconsin';
+import Wyoming from './pages/Learning Center Navbar/State Guides/By State/Wyoming/Wyoming';
 
 
 
@@ -248,6 +249,7 @@ const App = () => {
               <Route path='/Learning_Center/Washington' element={<Washington />} />
               <Route path='/Learning_Center/West_Virginia' element={<West_Virginia />} />
               <Route path='/Learning_Center/Wisconsin' element={<Wisconsin />} />
+              <Route path='/Learning_Center/Wyoming' element={<Wyoming />} />
 
 
               {/* starting a business navbar */}
