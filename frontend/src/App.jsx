@@ -144,6 +144,8 @@ import Utah from './pages/Learning Center Navbar/State Guides/By State/Utah/Utah
 import Vermont from './pages/Learning Center Navbar/State Guides/By State/Vermont/Vermont';
 import Virginia from './pages/Learning Center Navbar/State Guides/By State/Virginia/Virginia';
 import Washington from './pages/Learning Center Navbar/State Guides/By State/Washington/Washington';
+import West_Virginia from './pages/Learning Center Navbar/State Guides/By State/West Virginia/West_Virginia';
+import Wisconsin from './pages/Learning Center Navbar/State Guides/By State/Wisconsin/Wisconsin';
 
 
 
@@ -244,6 +246,8 @@ const App = () => {
               <Route path='/Learning_Center/Vermont' element={<Vermont />} />
               <Route path='/Learning_Center/Virginia' element={<Virginia />} />
               <Route path='/Learning_Center/Washington' element={<Washington />} />
+              <Route path='/Learning_Center/West_Virginia' element={<West_Virginia />} />
+              <Route path='/Learning_Center/Wisconsin' element={<Wisconsin />} />
 
 
               {/* starting a business navbar */}
