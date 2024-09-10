@@ -34,7 +34,7 @@ const Tabs_Eni = () => { // Updated the component name
                         <p>
                         The success of your business depends to some degree on your ability to set yourself apart from the competition. A good first step is choosing the right business name.</p>
 
-                        <p>Even if you're not ready to form a corporation or LLC, incorporate.com can reserve your business name in the state where you intend to form your company. Simply tell us what name you want to reserve and we'll conduct a search of the state records to make sure it's available. If it is, we will reserve your name of choice and hold it for you as long as state rules allow, preventing other companies from registering their businesses under the same name.</p>
+                        <p>Even if you're not ready to form a corporation or LLC, Ascend can reserve your business name in the state where you intend to form your company. Simply tell us what name you want to reserve and we'll conduct a search of the state records to make sure it's available. If it is, we will reserve your name of choice and hold it for you as long as state rules allow, preventing other companies from registering their businesses under the same name.</p>
 
                         <p>Be sure to choose your company name carefully. The name should be descriptive of your business activities, and it must be unique - it can't be confused with that of any other corporation, limited liability company (LLC) or partnership in your intended state of formation.</p>
 

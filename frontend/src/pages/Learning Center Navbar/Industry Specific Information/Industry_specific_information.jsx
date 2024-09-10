@@ -11,7 +11,7 @@ const Industry_specific_information = () => {
         <div className="Industry_specific_information_left">
           <p className="Industry_specific_information_paragraph">
             As America's leading provider of business formation services in all
-            50 states, incorporate.com can help you incorporate or form a
+            50 states, Ascend can help you incorporate or form a
             limited liability company in just 10 minutes, at a lower cost than
             using an attorney.
           </p>

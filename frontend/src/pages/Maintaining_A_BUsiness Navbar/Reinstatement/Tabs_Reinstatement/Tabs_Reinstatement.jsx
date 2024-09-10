@@ -61,7 +61,7 @@ const Tabs_Reinstatement = () => {
                         </p>
 
                         <p>
-                        When you work with incorporate.com, our reinstatement experts will:
+                        When you work with Ascend, our reinstatement experts will:
                         </p>
 
                         <ul>
@@ -73,11 +73,11 @@ const Tabs_Reinstatement = () => {
                         </ul>
 
                         <p>
-                        It's important to realize that if your business has been voided for some time, another entity may have taken its name. As part of the reinstatement process, incorporate.com will check to make sure your business name is still available.
+                        It's important to realize that if your business has been voided for some time, another entity may have taken its name. As part of the reinstatement process, Ascend will check to make sure your business name is still available.
                         </p>
 
                         <p>
-                            Ascend doesn't offer corporate reinstatement services in California, Georgia, New Jersey, or New York. incorporate.com can provide you with forms for a Texas reinstatement, but you must obtain tax clearance on your own through the Texas Comptroller's Office before returning the forms to incorporate.com for filing. Businesses should contact their state tax departments directly for assistance with tax clearance.
+                            Ascend doesn't offer corporate reinstatement services in California, Georgia, New Jersey, or New York. Ascend can provide you with forms for a Texas reinstatement, but you must obtain tax clearance on your own through the Texas Comptroller's Office before returning the forms to Ascend for filing. Businesses should contact their state tax departments directly for assistance with tax clearance.
                         </p>
                     </div>
                 )}

@@ -49,7 +49,7 @@ const CustomTabs = () => {
                         </ul>
                         <h2 >How should you choose a registered agent?</h2>
                         <p>
-                            Individuals can act as a registered agent, but we recommend using an experienced service provider–like incorporate.com. Why? We're in the business of business compliance, and we're in all 50 states and the District of Columbia. Plus, incorporate.com offers CSCNavigator®, a state-of-the-art online online tool that provides you with alerts when filings are due, a calendar of required filings, order status and related documents, the ability to view and pay invoices, current business standing with the state, and more.
+                            Individuals can act as a registered agent, but we recommend using an experienced service provider–like Ascend. Why? We're in the business of business compliance, and we're in all 50 states and the District of Columbia. Plus, Ascend offers CSCNavigator®, a state-of-the-art online online tool that provides you with alerts when filings are due, a calendar of required filings, order status and related documents, the ability to view and pay invoices, current business standing with the state, and more.
                         </p>
                         <img src="/img/RegisteredAgent2.jpg" alt="" className='Overview_tab_image' />
                         <h2>
@@ -57,13 +57,13 @@ const CustomTabs = () => {
                         </h2>
                         <ul>
                             <li><b>Reliability.</b>We'll remind you of important deadlines and complete the paperwork for you. And we're available during all business hours, so you're free to attend meetings, travel for work, go on vacation, or even just eat lunch outside of your office.</li>
-                            <li><b>Economy.</b>When you partner with incorporate.com, you eliminate the need to pay an employee just to wait for documents from the state. With us, you will be covered 24/7. And our rates are competitive compared to other established registered agents.</li>
+                            <li><b>Economy.</b>When you partner with Ascend, you eliminate the need to pay an employee just to wait for documents from the state. With us, you will be covered 24/7. And our rates are competitive compared to other established registered agents.</li>
 
-                            <li><b>Discretion.</b>When you use incorporate.com for your registered agent services, you'll never run the risk of your customers, vendors, or neighbors seeing a process server deliver legal documents to your place of business or home.</li>
+                            <li><b>Discretion.</b>When you use Ascend for your registered agent services, you'll never run the risk of your customers, vendors, or neighbors seeing a process server deliver legal documents to your place of business or home.</li>
 
                         </ul>
                         <p>
-                            The bottom line? Using an experienced third party, like incorporate.com, to serve as your agent will give you peace of mind. And that's priceless.
+                            The bottom line? Using an experienced third party, like Ascend, to serve as your agent will give you peace of mind. And that's priceless.
                         </p>
                         <div className="youtube-embed-container">
                             <div className="youtube-embed">

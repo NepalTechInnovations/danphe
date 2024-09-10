@@ -8,19 +8,19 @@ function Delaware_Filing_Forms() {
         return (
             <div className="Delaware_Filing_Forms-main-content">
                 <p>
-                Starting a business in Delaware is a great choice! Many LLCs and corporations choose to call Delaware home because of the many business benefits the state offers. The process to start a Delaware corporation or LLC can be daunting, but incorporate.com can make it easy. We'd be happy to do all the legwork for you – just contact us for more information!
+                Starting a business in Delaware is a great choice! Many LLCs and corporations choose to call Delaware home because of the many business benefits the state offers. The process to start a Delaware corporation or LLC can be daunting, but Ascend can make it easy. We'd be happy to do all the legwork for you – just contact us for more information!
                 </p>
                 <h2>
                 Delaware Corporation Filing
                 </h2>
                 <p>
-                To complete a Delaware corporation filing, there are several corporate forms the state of Delaware will require. A new corporation is required to file with the Delaware Division of Corporations. incorporate.com will help you choose a business name that isn't already in use by another company. We can quickly research existing companies and then reserve the name you desire.
+                To complete a Delaware corporation filing, there are several corporate forms the state of Delaware will require. A new corporation is required to file with the Delaware Division of Corporations. Ascend will help you choose a business name that isn't already in use by another company. We can quickly research existing companies and then reserve the name you desire.
                 </p>
                 <p>
                 Next, Delaware corporate filing forms need to be submitted to the state. We can help you fill out these corporation forms for the state of Delaware and insure that no essential information is missed. These will be submitted to the state of Delaware along with applicable filing fees.
                 </p>
                 <p>
-                You are also required to designate a registered agent that has a physical address in the state of Delaware. If your business is not physically located in Delaware, you cannot be your own registered agent. incorporate.com, who is headquartered in Delaware, specializes in Registered Agent services and can receive any legal paperwork your company might be served. We then help explain and the service of process and are here to provide answers for any questions you might have.
+                You are also required to designate a registered agent that has a physical address in the state of Delaware. If your business is not physically located in Delaware, you cannot be your own registered agent. Ascend, who is headquartered in Delaware, specializes in Registered Agent services and can receive any legal paperwork your company might be served. We then help explain and the service of process and are here to provide answers for any questions you might have.
                 </p>
                 <p>
                 Once your Delaware corporate filing is submitted and approved, you'll receive a Delaware Certificate of Incorporation. This document is important for opening bank accounts in the business name and obtaining financing for your company. To maintain your corporation, you'll file a Delaware corporation annual report and pay a franchise tax each year.

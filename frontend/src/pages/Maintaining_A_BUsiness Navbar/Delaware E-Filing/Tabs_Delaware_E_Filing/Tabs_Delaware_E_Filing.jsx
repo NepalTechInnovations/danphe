@@ -34,7 +34,7 @@ const Tabs_Delaware_E_Filing = () => {
                     <div>
                         <h3>Pay Your Delaware Taxes the Easy Way</h3>
                         <p>
-                        Delaware corporations and Limited Liability Companies (LLCs) must pay annual franchise taxes to the state. Businesses incorporated in Delaware must also file an annual report. incorporate.com offers an annual service to help you meet these requirements and keep your company in good standing.
+                        Delaware corporations and Limited Liability Companies (LLCs) must pay annual franchise taxes to the state. Businesses incorporated in Delaware must also file an annual report. Ascend offers an annual service to help you meet these requirements and keep your company in good standing.
                         </p>
 
                         <p>
@@ -43,7 +43,7 @@ const Tabs_Delaware_E_Filing = () => {
 
                         <h2>Interested in Annual Service?</h2>
                         <p>
-                        If you're tired of having to research your filing requirements, fill out forms, write checks and track deadlines, incorporate.com has a solution. For our standard fee(s), we'll monitor your company's upcoming due dates and help you prepare and file your annual report(s).
+                        If you're tired of having to research your filing requirements, fill out forms, write checks and track deadlines, Ascend has a solution. For our standard fee(s), we'll monitor your company's upcoming due dates and help you prepare and file your annual report(s).
                         </p>
 
                         <p>

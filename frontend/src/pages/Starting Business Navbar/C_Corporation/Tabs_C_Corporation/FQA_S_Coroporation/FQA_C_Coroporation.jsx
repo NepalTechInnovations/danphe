@@ -41,7 +41,7 @@ const FQA_C_corporation = () => {
 
             <div id="Question_1" className="fqa-c-corporation-section">
                 <h3>Do I need an attorney to form a corporation?</h3>
-                <p>No. You can prepare and file necessary paperwork yourself, or you can use incorporate.com to incorporate your business. If you are unsure if incorporating will benefit your business, please call us. Our Business Specialists are happy to answer your questions.</p>
+                <p>No. You can prepare and file necessary paperwork yourself, or you can use Ascend to incorporate your business. If you are unsure if incorporating will benefit your business, please call us. Our Business Specialists are happy to answer your questions.</p>
                 <p onClick={() => scrollToSection('top')} className="fqa-c-corporation-back-to-top">Back to Top</p>
             </div>
             <div id="Question_2" className="fqa-c-corporation-section">
@@ -82,7 +82,7 @@ const FQA_C_corporation = () => {
             </div>
             <div id="Question_8" className="fqa-c-corporation-section">
                 <h3>Can the personal asset protection provided by forming an c corp be taken away?</h3>
-                <p>No. You can prepare and file necessary paperwork yourself, or you can use incorporate.com to incorporate your business. If you are unsure if incorporating will benefit your business, please call us. Our Business Specialists are happy to answer your questions.</p>
+                <p>No. You can prepare and file necessary paperwork yourself, or you can use Ascend to incorporate your business. If you are unsure if incorporating will benefit your business, please call us. Our Business Specialists are happy to answer your questions.</p>
                 <p>
                 Ascend can assist your company maintain its "corporate veil" by providing you with required corporate forms and documents for you to complete and by assisting you with required state filings.
                 </p>

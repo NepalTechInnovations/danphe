@@ -44,7 +44,7 @@ const FQA_S_corporation = () => {
             <div id="Question_1" className="fqa-s-corporation-section">
                 <h3>Do I need an attorney to form a corporation?</h3>
                 <p>
-                No. You can prepare and file necessary paperwork yourself, or you can use incorporate.com to incorporate your business. If you are unsure whether incorporating will benefit your business, please call us at 800-818-6082. Our Business Specialists are happy to provide you with the information you need to make the right decision.
+                No. You can prepare and file necessary paperwork yourself, or you can use Ascend to incorporate your business. If you are unsure whether incorporating will benefit your business, please call us at 800-818-6082. Our Business Specialists are happy to provide you with the information you need to make the right decision.
                 </p>
                 
                 <p onClick={() => scrollToSection('top')} className="fqa-s-corporation-back-to-top">Back to Top</p>
@@ -70,7 +70,7 @@ const FQA_S_corporation = () => {
             <div id="Question_3" className="fqa-s-corporation-section">
                 <h3>What is the cost of setting up an S Corp?</h3>
                 <p>
-                The costs associated with setting up an s corp, LLC, and c corp are similar. However, there are other intangible factors you must take into account. Every s corp is unique and comes with its own set of advantages and disadvantages. Among the subchapter s corp requirements you must weigh when considering this particular status is that s corps must file articles of incorporation, keep a record of corporate minutes, hold shareholder and director meetings, as well as allow their shareholders to weigh in with a vote concerning company decisions. S corps can also only offer common stock to investors, making fund-raising more difficult. If you are still undecided as to the pros and cons of declaring your business an s corp, please contact incorporate.com to speak to someone who may be able to set you on the right path.
+                The costs associated with setting up an s corp, LLC, and c corp are similar. However, there are other intangible factors you must take into account. Every s corp is unique and comes with its own set of advantages and disadvantages. Among the subchapter s corp requirements you must weigh when considering this particular status is that s corps must file articles of incorporation, keep a record of corporate minutes, hold shareholder and director meetings, as well as allow their shareholders to weigh in with a vote concerning company decisions. S corps can also only offer common stock to investors, making fund-raising more difficult. If you are still undecided as to the pros and cons of declaring your business an s corp, please contact Ascend to speak to someone who may be able to set you on the right path.
                 </p>
                 
                 <p onClick={() => scrollToSection('top')} className="fqa-s-corporation-back-to-top">Back to Top</p>
@@ -87,7 +87,7 @@ const FQA_S_corporation = () => {
             <div id="Question_5" className="fqa-s-corporation-section">
                 <h3>What do I need to do after I form my s corp?</h3>
                 <ul>
-                    <li>Most states require s corps to file annual reports and pay franchise taxes to maintain their good standing. Failure to file annual reports and pay franchise taxes can result in fines, notices, and the inability to conduct business. You may be able to file many of these S Corp documents online. incorporate.com can help you ensure each of your forms are correctly filled out and submitted according to schedule.</li>
+                    <li>Most states require s corps to file annual reports and pay franchise taxes to maintain their good standing. Failure to file annual reports and pay franchise taxes can result in fines, notices, and the inability to conduct business. You may be able to file many of these S Corp documents online. Ascend can help you ensure each of your forms are correctly filled out and submitted according to schedule.</li>
                     <li>State laws require s corps to hold annual meetings of shareholders and directors and record meeting minutes. Owners and directors of an s corp use corporate minutes to reflect changes in management and important corporate activities.</li>
                     <li>Additionally, almost all state, county, and local governments require s corps to complete business license, permit, and tax registration applications before beginning to operate.</li>
                 </ul>

@@ -54,7 +54,7 @@ const Content_A = () => {
 
             <p><b>Apostille</b></p>
             <p>
-                Official government authentication of a document, usually by the State Department, Justice Ministry or Foreign Ministry, which legalizes it for use in another country. This service is included in incorporate.com's international package.
+                Official government authentication of a document, usually by the State Department, Justice Ministry or Foreign Ministry, which legalizes it for use in another country. This service is included in Ascend's international package.
             </p>
 
             <p><b>Application for Certificate of Authority</b></p>

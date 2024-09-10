@@ -38,7 +38,7 @@ function FormingaDelawareLLC() {
                     Delaware is one of the most popular states in which to form an LLC. In fact, nearly two-and-a-half times more LLCs than corporations are formed in the state of Delaware.
                 </p>
                 <p>
-                    If you're interested in forming an LLC in Delaware, let us help! incorporate.com has helped thousands of businesses form their Delaware LLC, and our established relationship with the Delaware Secretary of State allows us to give you the best service in the industry. We can take care of the whole process. Get started now!
+                    If you're interested in forming an LLC in Delaware, let us help! Ascend has helped thousands of businesses form their Delaware LLC, and our established relationship with the Delaware Secretary of State allows us to give you the best service in the industry. We can take care of the whole process. Get started now!
                 </p>
                 <p>
                     Starting an LLC in Delaware benefits your business in different ways. Large Delaware LLCs have greater benefits than small LLCs, but businesses of all sizes will see advantages to forming an LLC in Delaware. Some of the benefits of Delaware LLC formation include:

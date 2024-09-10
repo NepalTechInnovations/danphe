@@ -10,7 +10,7 @@ const Tax_filings = () => {
       <div className="Tax-fillings_main">
         <p className="Tax-fillings_paragraph">
           As America's leading provider of business formation services in all
-          50 states, incorporate.com can help you incorporate or form a
+          50 states, Ascend can help you incorporate or form a
           limited liability company in just 10 minutes, at a lower cost than
           using an attorney.
         </p>

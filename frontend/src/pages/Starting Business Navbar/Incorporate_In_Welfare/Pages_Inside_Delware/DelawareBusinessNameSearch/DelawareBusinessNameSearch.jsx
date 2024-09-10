@@ -37,7 +37,7 @@ function DelawareBusinessNameSearch() {
                 </p>
                 
                 <p>
-                Using the name you love for your company doesn't have to be hard. Let incorporate.com walk you through how to your Delaware corporation or Delaware LLC. We'll take care of everything from double-checking the name to filing the paperwork to serving as your registered agent. Contact us today!
+                Using the name you love for your company doesn't have to be hard. Let Ascend walk you through how to your Delaware corporation or Delaware LLC. We'll take care of everything from double-checking the name to filing the paperwork to serving as your registered agent. Contact us today!
                 </p>
                 
                 <h2>

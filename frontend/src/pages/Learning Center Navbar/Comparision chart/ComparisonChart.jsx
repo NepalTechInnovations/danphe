@@ -9,7 +9,7 @@ const ComparisionChart = () => {
       <div className="comparision-chartmain">
         <div className="comparision-chartleft">
           <p className='comparision-chartparagraph'>
-            Before you begin the incorporation process, you will need to choose a business structure. Ascend can help you form a new corporation or Limited Liability Company (LLC) in any state. There are plenty of options when it comes to deciding whether to incorporate or form a partnership or act as a sole proprietor; take your time and let incorporate.com Business Comparison Chart help you through the process. Please review our chart below for the advantages of forming a C Corporation, S Corporation, or LLC.
+            Before you begin the incorporation process, you will need to choose a business structure. Ascend can help you form a new corporation or Limited Liability Company (LLC) in any state. There are plenty of options when it comes to deciding whether to incorporate or form a partnership or act as a sole proprietor; take your time and let Ascend Business Comparison Chart help you through the process. Please review our chart below for the advantages of forming a C Corporation, S Corporation, or LLC.
           </p>
 
           <table className="comparison-table">

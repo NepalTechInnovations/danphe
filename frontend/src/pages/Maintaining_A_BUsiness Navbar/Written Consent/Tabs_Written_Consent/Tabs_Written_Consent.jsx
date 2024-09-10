@@ -63,7 +63,7 @@ const Tabs_Written_Consent = () => {
                         </p>
 
                         <p>
-                            In the case of opening a business bank account, incorporate.com can provide you with a written consent document naming the authorized signers for that account.
+                            In the case of opening a business bank account, Ascend can provide you with a written consent document naming the authorized signers for that account.
                         </p>
                     </div>
                 )}

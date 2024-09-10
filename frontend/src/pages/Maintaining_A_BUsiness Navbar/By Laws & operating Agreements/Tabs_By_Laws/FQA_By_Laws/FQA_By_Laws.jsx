@@ -93,10 +93,10 @@ const FQA_By_Laws = () => {
             <div id="Question_6" className="bylaws-section">
                 <h3>Do I need an attorney to draft my bylaws or operating agreement?</h3>
                 <p>
-                No, you have options. For example, regardless of the state in which you formed your LLC, incorporate.com can provide a form operating agreement for your business. For a $99 service fee, we will provide you with a form operating agreement based on the specific information that you provide. We will then store that document in your CSCNavigator® account and send you an email when it is ready.
+                No, you have options. For example, regardless of the state in which you formed your LLC, Ascend can provide a form operating agreement for your business. For a $99 service fee, we will provide you with a form operating agreement based on the specific information that you provide. We will then store that document in your CSCNavigator® account and send you an email when it is ready.
                 </p>
                 <p>
-                However, incorporate.com cannot provide you with legal advice regarding questions that may arise as you prepare the forms we provide you.
+                However, Ascend cannot provide you with legal advice regarding questions that may arise as you prepare the forms we provide you.
                 </p>
                 <p onClick={() => scrollToSection('top')} className="bylaws-back-to-top">Back to Top</p>
             </div>

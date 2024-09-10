@@ -79,7 +79,7 @@ const FQA_None_Profit_Corporation = () => {
             <div id="Question_2" className="fqa-none-profit-corporation-section">
                 <h3>How do I qualify for Tax-Exempt Status as a Nonprofit?</h3>
                 <p>
-                    Though other types of nonprofit organizations exist, most of our customers seek 501(c)(3) tax-exempt status with the Internal Revenue Service (IRS). incorporate.com can help you form a nonprofit corporation in any state or the District of Columbia and assist you in obtaining your tax-exempt status with the IRS.
+                    Though other types of nonprofit organizations exist, most of our customers seek 501(c)(3) tax-exempt status with the Internal Revenue Service (IRS). Ascend can help you form a nonprofit corporation in any state or the District of Columbia and assist you in obtaining your tax-exempt status with the IRS.
                 </p>
 
 
@@ -122,7 +122,7 @@ const FQA_None_Profit_Corporation = () => {
             <div id="Question_5" className="fqa-none-profit-corporation-section">
                 <h3>Do I need an attorney to form a nonprofit corporation?</h3>
                 <p>
-                    No. You can prepare and file necessary paperwork yourself, or you can use incorporate.com to incorporate your nonprofit. If you are unsure whether incorporating will benefit your nonprofit, please call us at 800-818-6082. Our Business Specialists are happy to provide you with the information you need to make the best decision.
+                    No. You can prepare and file necessary paperwork yourself, or you can use Ascend to incorporate your nonprofit. If you are unsure whether incorporating will benefit your nonprofit, please call us at 800-818-6082. Our Business Specialists are happy to provide you with the information you need to make the best decision.
                 </p>
 
 
@@ -160,7 +160,7 @@ const FQA_None_Profit_Corporation = () => {
             <div id="Question_8" className="fqa-none-profit-corporation-section">
                 <h3>Does my nonprofit need to register with the state in order to fundraise?</h3>
                 <p>
-                    Most states require that nonprofits register in a state before soliciting donations from residents of that state, and some states require registration if the nonprofit can receive donations from within that state (e.g., over the Internet), even if the nonprofit does not directly solicit donations from that state. In addition, the IRS requires disclosure of all states in which a nonprofit is registered on Form 990 if the nonprofit has income of more than $25,000 per year. Penalties for failure to register can include being forced to give back donations or facing criminal charges. incorporate.com can assist you in registering in those states in which you intend to solicit donations.
+                    Most states require that nonprofits register in a state before soliciting donations from residents of that state, and some states require registration if the nonprofit can receive donations from within that state (e.g., over the Internet), even if the nonprofit does not directly solicit donations from that state. In addition, the IRS requires disclosure of all states in which a nonprofit is registered on Form 990 if the nonprofit has income of more than $25,000 per year. Penalties for failure to register can include being forced to give back donations or facing criminal charges. Ascend can assist you in registering in those states in which you intend to solicit donations.
                 </p>
 
                 <p onClick={() => scrollToSection('top')} className="fqa-none-profit-corporation-back-to-top">Back to Top</p>
@@ -168,7 +168,7 @@ const FQA_None_Profit_Corporation = () => {
             <div id="Question_9" className="fqa-none-profit-corporation-section">
                 <h3>What must a 501(c)(3) organization do to be classified as a publicly supported organization (rather than as a private foundation)?</h3>
                 <p>
-                    A nonprofit organization that receives substantial portions of its income either from governmental sources or from direct contributions from the general public may qualify as a publicly supported organization under section 509(a) of the Internal Revenue Code. This designation leads to less regulation, exemption from certain taxes that private charities must pay, and other benefits. However, due to the complexity of the laws and regulations governing designation as a publicly supported organization, incorporate.com recommends that any nonprofit interested in this designation seek legal and tax counsel to provide the necessary advice.
+                    A nonprofit organization that receives substantial portions of its income either from governmental sources or from direct contributions from the general public may qualify as a publicly supported organization under section 509(a) of the Internal Revenue Code. This designation leads to less regulation, exemption from certain taxes that private charities must pay, and other benefits. However, due to the complexity of the laws and regulations governing designation as a publicly supported organization, Ascend recommends that any nonprofit interested in this designation seek legal and tax counsel to provide the necessary advice.
                 </p>
 
                 <p onClick={() => scrollToSection('top')} className="fqa-none-profit-corporation-back-to-top">Back to Top</p>
@@ -208,7 +208,7 @@ const FQA_None_Profit_Corporation = () => {
             <div id="Question_13" className="fqa-none-profit-corporation-section">
                 <h3>After I form my nonprofit, how do I remain in compliance?</h3>
                 <p>
-                    All corporations are generally required to file annual reports and pay franchise fees to the state in which they're incorporated; however, nonprofits are often exempt from paying franchise fees. In addition, nonprofits are generally required to annually renew their registration in any state in which they are registered. Nonprofits are also subject to various laws and regulations regarding their tax-exempt status. incorporate.com cannot provide legal or tax advice regarding the tax-exempt status or maintenance of your nonprofit corporation.
+                    All corporations are generally required to file annual reports and pay franchise fees to the state in which they're incorporated; however, nonprofits are often exempt from paying franchise fees. In addition, nonprofits are generally required to annually renew their registration in any state in which they are registered. Nonprofits are also subject to various laws and regulations regarding their tax-exempt status. Ascend cannot provide legal or tax advice regarding the tax-exempt status or maintenance of your nonprofit corporation.
                 </p>
 
                 <p onClick={() => scrollToSection('top')} className="fqa-none-profit-corporation-back-to-top">Back to Top</p>

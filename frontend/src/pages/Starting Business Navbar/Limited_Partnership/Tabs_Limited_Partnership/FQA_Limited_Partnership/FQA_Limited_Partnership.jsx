@@ -79,7 +79,7 @@ const FQA_Series_LLC = () => {
                 Do I need an attorney to form a Limited Partnership?
                 </h3>
                 <p>
-                No. You can prepare and file the necessary paperwork yourself, or you can use incorporate.com to help you form your Limited Partnership. If you are unsure whether forming a Limited Partnership will benefit your business, please call us at 800-818-6082. Our Business Specialists are happy to provide you with the information you need to decide whether to form a Limited Partnership.
+                No. You can prepare and file the necessary paperwork yourself, or you can use Ascend to help you form your Limited Partnership. If you are unsure whether forming a Limited Partnership will benefit your business, please call us at 800-818-6082. Our Business Specialists are happy to provide you with the information you need to decide whether to form a Limited Partnership.
                 </p>
 
 

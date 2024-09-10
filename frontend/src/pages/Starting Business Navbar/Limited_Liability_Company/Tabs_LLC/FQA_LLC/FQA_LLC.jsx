@@ -130,7 +130,7 @@ const FQA_LLC = () => {
             <div id="Question_7" className="fqa-llc-section">
                 <h3>How do I create an LLC?</h3>
                 <p>
-                incorporate.com can walk you through the process of starting an LLC either online or by telephone. Customers usually find our LLC formation services less expensive than those of an attorney. We have multiple packages and options to choose from to meet your individual budget and needs.
+                Ascend can walk you through the process of starting an LLC either online or by telephone. Customers usually find our LLC formation services less expensive than those of an attorney. We have multiple packages and options to choose from to meet your individual budget and needs.
                 </p>
                 <p>
                 Creating an LLC takes less than 10 minutes. You simply need to choose a business structure, state, and your company name. We take care of the rest. Our experts have formed more than 300,000 businesses nationwide. 
@@ -151,9 +151,9 @@ const FQA_LLC = () => {
                 <p onClick={() => scrollToSection('top')} className="fqa-llc-back-to-top">Back to Top</p>
             </div>
             <div id="Question_9" className="fqa-llc-section">
-                <h3>Can I use incorporate.com as a Registered Agent?</h3>
+                <h3>Can I use Ascend as a Registered Agent?</h3>
                 <p>
-                Yes, you can! We are happy to receive your legal documents and forward them to the person you designate as your legal contact. By starting an LLC online and using incorporate.com as your registered agent, you are provided peace of mind. Simply choose incorporate.com as your Registered Agent during the checkout process.
+                Yes, you can! We are happy to receive your legal documents and forward them to the person you designate as your legal contact. By starting an LLC online and using Ascend as your registered agent, you are provided peace of mind. Simply choose Ascend as your Registered Agent during the checkout process.
                 </p>
                 <p onClick={() => scrollToSection('top')} className="fqa-llc-back-to-top">Back to Top</p>
             </div>
@@ -167,7 +167,7 @@ const FQA_LLC = () => {
             <div id="Question_11" className="fqa-llc-section">
                 <h3>I had some legal questions come up. Can you assist?</h3>
                 <p>
-                Not with legal questions. incorporate.com does not provide legal advice. Please consult with an attorney for any legal issues that arise with your LLC or business operations.
+                Not with legal questions. Ascend does not provide legal advice. Please consult with an attorney for any legal issues that arise with your LLC or business operations.
                 </p>
                 <p onClick={() => scrollToSection('top')} className="fqa-llc-back-to-top">Back to Top</p>
             </div>

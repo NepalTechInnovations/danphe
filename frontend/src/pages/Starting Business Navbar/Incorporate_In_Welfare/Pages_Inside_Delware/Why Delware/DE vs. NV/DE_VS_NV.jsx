@@ -57,7 +57,7 @@ function DE_VS_NV() {
 
 
                 <p>
-                    Need more help determining which state is best for you to form your company? incorporate.com can help. We have formation specialist that can walk you through the process step-by-step, giving guidance and making sure you don't miss anything along the way. Contact us for more information!
+                    Need more help determining which state is best for you to form your company? Ascend can help. We have formation specialist that can walk you through the process step-by-step, giving guidance and making sure you don't miss anything along the way. Contact us for more information!
                 </p>
 
 

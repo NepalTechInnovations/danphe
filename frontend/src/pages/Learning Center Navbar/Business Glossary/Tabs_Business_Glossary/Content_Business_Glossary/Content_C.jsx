@@ -95,12 +95,12 @@ const Content_C = () => {
 
             <p><b>Corporate Kit</b></p>
             <p>
-                Corporate kits provided by incorporate.com include sample minutes and bylaws, a desk embosser, stock certificates, a corporate seal and stock ledger.
+                Corporate kits provided by Ascend include sample minutes and bylaws, a desk embosser, stock certificates, a corporate seal and stock ledger.
             </p>
 
             <p><b>Corporate Seal</b></p>
             <p>
-                A corporate seal is a device made to either emboss or imprint certain company information onto documents. This information usually includes the company's name and date and state of formation. Corporate seals are often required when opening corporate or LLC bank accounts, distributing stock or membership certificates or conducting other corporate business. Incorporate.com includes custom-made corporate seals as part of the Corporate Kit.
+                A corporate seal is a device made to either emboss or imprint certain company information onto documents. This information usually includes the company's name and date and state of formation. Corporate seals are often required when opening corporate or LLC bank accounts, distributing stock or membership certificates or conducting other corporate business. Ascend includes custom-made corporate seals as part of the Corporate Kit.
             </p>
 
             <p><b>Corporation</b></p>

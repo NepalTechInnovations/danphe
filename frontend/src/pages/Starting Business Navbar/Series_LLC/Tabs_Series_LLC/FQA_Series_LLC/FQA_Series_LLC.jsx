@@ -95,7 +95,7 @@ const FQA_Series_LLC = () => {
             <div id="Question_6" className="fqa-series-llc-section">
                 <h3>Do I need an attorney to form a Series LLC?</h3>
                 <p>
-                <b>No.</b> You can prepare and file necessary paperwork yourself, or you can use incorporate.com to form your Series LLC.
+                <b>No.</b> You can prepare and file necessary paperwork yourself, or you can use Ascend to form your Series LLC.
                 </p>
 
                 <p onClick={() => scrollToSection('top')} className="fqa-series-llc-back-to-top">Back to Top</p>

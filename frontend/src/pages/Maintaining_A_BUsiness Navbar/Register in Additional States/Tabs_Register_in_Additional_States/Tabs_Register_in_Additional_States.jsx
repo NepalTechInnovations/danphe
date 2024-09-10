@@ -46,7 +46,7 @@ const Tabs_Register_in_Additional_States = () => {
                             Ascend In order to do business legally in states other than your home state (the state where your company was formed or incorporated), you may need to register (also referred to as qualifying) your company in those states. If your business has offices, employees or advertises in states outside of your company's home state, chances are you'll need to qualify your company in that state. Your company becomes qualified by obtaining something often called a Certificate of Authority from the Secretary of State.
                         </p>
                         <p>
-                        It's important to understand that by doing business in other states, you may be required to meet other compliance obligations, including the need for business licenses, business permits and tax registrations in those states. incorporate.com can help you fulfill these and other compliance obligations in all the states where you'd like to transact business.
+                        It's important to understand that by doing business in other states, you may be required to meet other compliance obligations, including the need for business licenses, business permits and tax registrations in those states. Ascend can help you fulfill these and other compliance obligations in all the states where you'd like to transact business.
 
 
                         </p>

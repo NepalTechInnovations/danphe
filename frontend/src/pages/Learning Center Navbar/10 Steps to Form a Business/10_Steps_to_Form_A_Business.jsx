@@ -12,7 +12,7 @@ const Steps_to_Form_A_Business = () => {
 
       <div className="Steps_to_Form_A_Business_main">
         <div className="Steps_to_Form_A_Business_left">
-          <h2 className="Steps_to_Form_A_Business_subheading">Forming a business in the United States can be a confusing and stressful process, unless you're prepared and you've got a good idea of what you need to do. Incorporate.com presents this guide to forming a business to help you along the way.</h2>
+          <h2 className="Steps_to_Form_A_Business_subheading">Forming a business in the United States can be a confusing and stressful process, unless you're prepared and you've got a good idea of what you need to do. Ascend presents this guide to forming a business to help you along the way.</h2>
           
           <img src="/img/10-steps-to-form-a-business.png" />
 

@@ -181,7 +181,7 @@ const How_To_Start_a_Franchise_10_Steps = () => {
           </p>
 
           <p>
-            Luckily, incorporate.com can help you stay in compliance with both business-licensing and annual reporting requirements.
+            Luckily, Ascend can help you stay in compliance with both business-licensing and annual reporting requirements.
           </p>
 
           <h2 className="How_To_Start_a_Franchise_10_Steps_subheading">Step 9: Build or Improve Your Location, Attend Training, and Hire Employees
