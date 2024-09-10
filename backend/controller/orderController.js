@@ -109,3 +109,58 @@ exports.createPaymentIntent = async (req, res) => {
 
 
 
+
+
+
+
+
+
+
+// *********************new way testing *****************
+
+
+
+// controllers/userDataController.js
+const UserAllData = require("../models/userAllData");
+
+exports.saveOrderDetails = async (req, res) => {
+    try {
+      const { cartData, contactInfo, companyInfo, paymentIntentId } = req.body;
+  
+      // Log the received data to check if contactData is included
+      console.log('Received Data:', req.body);
+  
+      if (!cartData || !contactInfo || !paymentIntentId) {
+        return res.status(400).json({ message: 'Missing required data' });
+      }
+  
+      // Ensure that contactData is properly handled
+      const newOrder = new UserAllData({
+        quoteData: cartData,
+        contactData: contactInfo,
+        // companyData: companyInfo,
+        packageData: { paymentIntentId },
+      });
+  
+      const savedOrder = await newOrder.save();
+  
+      res.status(200).json({ message: 'Order details saved successfully', order: savedOrder });
+    } catch (error) {
+      console.error('Error saving order details:', error);
+      res.status(500).json({ error: 'Error saving order details' });
+    }
+  };
+  
+
+
+
+
+  exports.getAllUserOrderData = async (req, res) => {
+    try {
+        const userId = req.user._id;
+        const orderInfo = await UserAllData.find({ user: userId }).populate({ path: 'user', select: '-password' });
+        res.status(200).json({ success: true, message: 'Order information retrieved successfully', orderInfo });
+    } catch (error) {
+        res.status(500).json({ success: false, message: 'Internal server error' });
+    }
+};

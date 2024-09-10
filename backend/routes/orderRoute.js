@@ -31,5 +31,11 @@ routes.post('/create-payment-intent', controller.createPaymentIntent);
 
 
 
+//testing
+
+routes.post('/save-order-details', controller.saveOrderDetails);
+
+
+
 
 module.exports = routes;
