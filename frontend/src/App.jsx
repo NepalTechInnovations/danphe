@@ -102,6 +102,7 @@ import California from './pages/Learning Center Navbar/State Guides/By State/Cal
 import Colorado from './pages/Learning Center Navbar/State Guides/By State/Colorado/Colorado';
 import Connecticut from './pages/Learning Center Navbar/State Guides/By State/Connecticut/Connecticut';
 import Delaware from './pages/Learning Center Navbar/State Guides/By State/Delaware/Delaware';
+import District_of_Columbia from './pages/Learning Center Navbar/State Guides/By State/District of Columbia/District_of_Columbia';
 import Florida from './pages/Learning Center Navbar/State Guides/By State/Florida/Florida';
 import Georgia from './pages/Learning Center Navbar/State Guides/By State/Georgia/Georgia';
 import Hawaii from './pages/Learning Center Navbar/State Guides/By State/Hawaii/Hawaii';
@@ -208,6 +209,7 @@ const App = () => {
               <Route path='/Learning_Center/Colorado' element={<Colorado />} />
               <Route path='/Learning_Center/Connecticut' element={<Connecticut />} />
               <Route path='/Learning_Center/Delaware' element={<Delaware />} />
+              <Route path='/Learning_Center/District_of_Columbia' element={<District_of_Columbia />} />
               <Route path='/Learning_Center/Florida' element={<Florida />} />
               <Route path='/Learning_Center/Georgia' element={<Georgia />} />
               <Route path='/Learning_Center/Hawaii' element={<Hawaii />} />

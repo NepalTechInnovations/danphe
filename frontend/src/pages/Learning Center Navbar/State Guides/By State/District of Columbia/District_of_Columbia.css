@@ -1,18 +1,18 @@
-.top_main_hero_section_Delaware {
+.top_main_hero_section_District_of_Columbia {
     height: 185px;
     width: 100%;
     overflow: hidden;
     position: relative;
 }
 
-.top_Delaware_image {
+.top_District_of_Columbia_image {
     width: 100%;
     height: 100%;
     object-fit: cover;
     object-position: center;
 }
 
-.image_over_paragraph_Delaware {
+.image_over_paragraph_District_of_Columbia {
     position: absolute;
     color: #003B5C;
     top: 6vh;
@@ -24,18 +24,18 @@
     font-weight: 500;
 }
 
-.bottom_Delaware {
+.bottom_District_of_Columbia {
     display: flex;
     width: 70%;
     gap: 3%;
     margin: 50px auto;
 }
 
-.left_side_Delaware {
+.left_side_District_of_Columbia {
     width: 70%;
 }
 
-.right_side_Delaware {
+.right_side_District_of_Columbia {
     width: 20%;
     padding: 10px 20px 30px 20px;
     margin: 0 10px;
@@ -45,7 +45,7 @@
     text-align: center;
 }
 
-.Delaware_button_full {
+.District_of_Columbia_button_full {
     width: 100%;
     padding: 10px;
     color: #fff;
@@ -53,7 +53,7 @@
     border-radius: 5px;
 }
 
-.right_h3_Delaware {
+.right_h3_District_of_Columbia {
     font-size: 30px;
     color: #d1344f;
     margin: 20px auto 30px auto;
@@ -67,18 +67,18 @@
 }
 
 @media(max-width: 768px) {
-    .bottom_Delaware {
+    .bottom_District_of_Columbia {
         display: block;
         width: 90%;
         gap: 0%;
         margin: 50px auto;
     }
 
-    .left_side_Delaware {
+    .left_side_District_of_Columbia {
         width: 100%;
     }
 
-    .right_side_Delaware {
+    .right_side_District_of_Columbia {
         width: 100%;
         padding: 10px 20px 30px 0px;
         margin: 0 10px;
@@ -88,7 +88,7 @@
         text-align: left;
     }
 
-    .Delaware_button_full {
+    .District_of_Columbia_button_full {
         width: 30%;
         padding: 10px 10px 10px 0px;
         color: #fff;
@@ -96,7 +96,7 @@
         border-radius: 5px;
     }
 
-    .right_h3_Delaware {
+    .right_h3_District_of_Columbia {
         font-size: 30px;
         color: #d1344f;
         margin: 20px auto 10px auto;
