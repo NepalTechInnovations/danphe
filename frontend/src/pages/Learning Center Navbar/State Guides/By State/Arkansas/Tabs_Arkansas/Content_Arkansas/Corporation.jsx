@@ -60,14 +60,16 @@ const Corporation = () => {
         file Articles of Incorporation as well as a Franchise Tax Registration.
       </p>
 
-      <h2>Turnaround time</h2>
       <p>
+        <b>Turnaround time</b>
         In general, turnaround time for incorporating a business in Arkansas is
         3-5 business days.
       </p>
 
-      <h2>Follow-up filings</h2>
-      <p>Not required.</p>
+      <p>
+        <b>Follow-up filings</b>
+        Not required.
+      </p>
 
       <h2>Officers/Directors Information</h2>
       <p>
