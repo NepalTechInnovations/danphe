@@ -136,6 +136,8 @@ import '../cart/checkout.css';
 import CartCard from '../cart/CartCard';
 import { useCartGlobally } from '../../contexts/cartContext';
 import { useAuthGlobally } from '../../contexts/AuthContext';
+import { useNavigate } from 'react-router-dom';
+import toast from 'react-hot-toast';
 
 const stripePromise = loadStripe(import.meta.env.VITE_STRIPE_PUBLIC_KEY);
 
@@ -146,6 +148,9 @@ const CheckoutForm = ({ totalPrice }) => {
     const [success, setSuccess] = useState(false);
     const [loading, setLoading] = useState(false);
     const [userData, setUserData] = useState(null);
+    const [auth] = useAuthGlobally();
+
+    const navigate = useNavigate();
 
     // Fetch user data from localStorage on component mount
     useEffect(() => {
@@ -192,7 +197,10 @@ const CheckoutForm = ({ totalPrice }) => {
 
             // Step 3: If payment is successful, send data to backend
             if (paymentResult.paymentIntent.status === 'succeeded') {
-                // Send the cart, contact, and company info to backend
+                if(!auth.user){
+                    navigate('/login');
+                }else{
+                    // Send the cart, contact, and company info to backend
                 await axios.post(
                     `${import.meta.env.VITE_REACT_APP_URL}/api/v1/order/save-order-details`,
                     {
@@ -200,9 +208,16 @@ const CheckoutForm = ({ totalPrice }) => {
                         cartData: userData.cart,
                         contactInfo: userData.contactFormData,
                         companyInfo: userData.companyInfo,
+                        // user: auth.user._id,
+                      
                     },
                     { headers: { 'Content-Type': 'application/json' } }
                 );
+                navigate ('/client-dashboard');
+                toast.success("payment success...")
+                
+
+                }
                 
                 setSuccess(true);
                 setError(null);
@@ -242,6 +257,9 @@ const CheckoutForm = ({ totalPrice }) => {
         </form>
     );
 };
+
+
+
 
 const Checkout = () => {
     const { cart } = useCartGlobally();

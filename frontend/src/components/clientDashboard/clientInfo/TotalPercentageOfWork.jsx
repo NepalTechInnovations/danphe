@@ -14,7 +14,16 @@ const TotalPercentageOfWork = () => {
     const fetchOrders = async () => {
       try {
         const response = await axios.get(`${import.meta.env.VITE_REACT_APP_URL}/api/v1/order/getOrders`);
-        const orders = response.data;
+        
+        // Log the API response to verify the structure
+        console.log('API Response:', response.data);
+
+        // Extract the orders from the response
+        const orders = response.data.orderInfo; // Make sure to access `orderInfo`
+
+        if (!Array.isArray(orders)) {
+          throw new Error('Unexpected data format');
+        }
 
         // Calculate the percentage based on the order status
         const statuses = orders.map(order => {
@@ -37,7 +46,7 @@ const TotalPercentageOfWork = () => {
         setPercentage(averagePercentage);
       } catch (error) {
         setError('Error fetching orders');
-        console.error('Error fetching orders', error);
+        console.error('Error fetching orders:', error);
       } finally {
         setLoading(false);
       }
@@ -79,24 +88,3 @@ const TotalPercentageOfWork = () => {
 };
 
 export default TotalPercentageOfWork;
-
-
-
-
-
-
-
-
-// import React from 'react';
-// import { Progress, Typography } from 'antd';
-
-// const { Title } = Typography;
-
-// const TotalPercentageOfWork = () => (
-//   <>
-//     <Title style={{color: '#fff'}} level={4}>Total Percentage of Work</Title>
-//     <Progress type="circle" percent={50} />
-//   </>
-// );
-
-// export default TotalPercentageOfWork;

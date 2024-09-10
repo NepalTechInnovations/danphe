@@ -27,7 +27,7 @@ const TotalProgressWork = () => {
       },
     ],
   });
-  
+
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
 
@@ -35,16 +35,19 @@ const TotalProgressWork = () => {
     const fetchOrders = async () => {
       try {
         const response = await axios.get(`${import.meta.env.VITE_REACT_APP_URL}/api/v1/order/getOrders`);
-        const orders = response.data;
+        console.log('API Response:', response);
 
-        // Define the progress percentages for each status
-        const progressMap = {
-          verified: 100,
-          processing: 50,
-          pending: 20,
-        };
+        if (response.status !== 200) {
+          throw new Error(`Unexpected status code: ${response.status}`);
+        }
 
-        // Calculate the total progress based on order status
+        // Extract the orders from the response
+        const orders = response.data.orderInfo; // Adjusted to access `orderInfo`
+
+        if (!Array.isArray(orders)) {
+          throw new Error('Unexpected data format');
+        }
+
         const completed = orders.filter(order => order.status === 'verified').length;
         const inProgress = orders.filter(order => order.status === 'processing').length;
         const pending = orders.filter(order => order.status === 'pending').length;
@@ -76,8 +79,8 @@ const TotalProgressWork = () => {
           ],
         });
       } catch (error) {
-        setError('Error fetching orders');
-        console.error('Error fetching orders', error);
+        setError(error.message || 'Error fetching orders');
+        console.error('Error fetching orders:', error);
       } finally {
         setLoading(false);
       }
@@ -107,7 +110,7 @@ const TotalProgressWork = () => {
   }
 
   if (error) {
-    return <div>{error}</div>;
+    return <div>Error: {error}</div>;
   }
 
   return (
@@ -123,42 +126,3 @@ const TotalProgressWork = () => {
 };
 
 export default TotalProgressWork;
-
-
-
-
-
-
-
-// import React from 'react';
-// import { PieChart, Pie, Cell, ResponsiveContainer, Tooltip } from 'recharts';
-// import { Typography } from 'antd';
-
-// const { Title } = Typography;
-
-// const dataPieChart = [
-//   { name: 'Group A', value: 400 },
-//   { name: 'Group B', value: 300 },
-//   { name: 'Group C', value: 300 },
-//   { name: 'Group D', value: 200 },
-// ];
-
-// const COLORS = ['#0088FE', '#00C49F', '#FFBB28', '#FF8042'];
-
-// const TotalProgressWork = () => (
-//   <>
-//     <Title level={4}>Total Progress of Work</Title>
-//     <ResponsiveContainer width="100%" height={150}>
-//       <PieChart>
-//         <Pie data={dataPieChart} cx="50%" cy="50%" outerRadius={60} fill="#8884d8" label>
-//           {dataPieChart.map((entry, index) => (
-//             <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
-//           ))}
-//         </Pie>
-//         <Tooltip />
-//       </PieChart>
-//     </ResponsiveContainer>
-//   </>
-// );
-
-// export default TotalProgressWork;

@@ -33,9 +33,9 @@ const UserDocuments = () => {
   useEffect(() => {
     const fetchDocuments = async () => {
       try {
-        setLoading(true); // Set loading state to true before fetching
-        const response = await axios.get('http://localhost:3000/api/v1/fileUpload/allDocuments');
-        
+        setLoading(true);       
+        const response = await axios.get(`${import.meta.env.VITE_REACT_APP_URL}/api/v1/fileUpload/allDocuments`);
+
         if (response.data.success) {
           const documents = response.data.getAllDocuments;
           

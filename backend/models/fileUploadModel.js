@@ -9,9 +9,17 @@ const fileUploadSchema = new mongoose.Schema({
     
     images: [{
         type: String
-    }]
+    }],
+    user: {
+        type: mongoose.Schema.Types.ObjectId,
+        ref: 'UserAuth',
+        required: true
+    },
+
 }, { timestamps: true });
 
 
 const fileUploadModel = mongoose.model('Documents', fileUploadSchema);
 module.exports = fileUploadModel;
+
+
