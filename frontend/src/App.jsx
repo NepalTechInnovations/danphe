@@ -139,6 +139,8 @@ import Rhode_Island from './pages/Learning Center Navbar/State Guides/By State/R
 import South_Carolina from './pages/Learning Center Navbar/State Guides/By State/South Carolina/South_Carolina';
 import South_Dakota from './pages/Learning Center Navbar/State Guides/By State/South Dakota/South_Dakota';
 import Tennessee from './pages/Learning Center Navbar/State Guides/By State/Tennessee/Tennessee';
+import Texas from './pages/Learning Center Navbar/State Guides/By State/Texas/Texas';
+import Utah from './pages/Learning Center Navbar/State Guides/By State/Utah/Utah';
 
 
 
@@ -234,6 +236,8 @@ const App = () => {
               <Route path='/Learning_Center/South_Carolina' element={<South_Carolina />} />
               <Route path='/Learning_Center/South_Dakota' element={<South_Dakota />} />
               <Route path='/Learning_Center/Tennessee' element={<Tennessee />} />
+              <Route path='/Learning_Center/Texas' element={<Texas />} />
+              <Route path='/Learning_Center/Utah' element={<Utah />} />
 
 
               {/* starting a business navbar */}
