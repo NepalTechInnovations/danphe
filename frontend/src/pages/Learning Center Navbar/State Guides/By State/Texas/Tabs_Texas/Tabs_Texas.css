@@ -1,8 +1,8 @@
-.tabs-District_of_Columbia-container {
+.tabs-Texas-container {
     width: 100%;
 }
 
-.tabs-District_of_Columbia-tabs {
+.tabs-Texas-tabs {
     display: flex;
     align-items: center;
     position: relative;
@@ -10,7 +10,7 @@
     flex-wrap: wrap; /* Adjust for many tabs */
 }
 
-.tabs-District_of_Columbia-tab {
+.tabs-Texas-tab {
     margin-right: 20px;
     padding-bottom: 8px;
     font-size: 1.2rem;
@@ -20,18 +20,18 @@
     transition: color 0.3s ease;
 }
 
-.tabs-District_of_Columbia-tab.tabs-District_of_Columbia-active {
+.tabs-Texas-tab.tabs-Texas-active {
     color: #d8345f;
 }
 
-.tabs-District_of_Columbia-tab-indicator {
+.tabs-Texas-tab-indicator {
     position: relative;
     width: 100%;
     height: 8px;
     background-color: #d8345f;
 }
 
-.tabs-District_of_Columbia-indicator {
+.tabs-Texas-indicator {
     position: absolute;
     top: -16px;
     height: 16px;
@@ -40,18 +40,18 @@
     clip-path: polygon(50% 0%, 100% 50%, 100% 100%, 0% 100%, 0% 50%);
 }
 
-.tabs-District_of_Columbia-indicator.tabs-District_of_Columbia-corporation { left: 0; width: 60px; }
-.tabs-District_of_Columbia-indicator.tabs-District_of_Columbia-llc { left: 105px; width: 60px; }
-.tabs-District_of_Columbia-indicator.tabs-District_of_Columbia-business-licenses { left: 225px; width: 60px; }
+.tabs-Texas-indicator.tabs-Texas-corporation { left: 0; width: 60px; }
+.tabs-Texas-indicator.tabs-Texas-llc { left: 105px; width: 60px; }
+.tabs-Texas-indicator.tabs-Texas-business-licenses { left: 225px; width: 60px; }
 
-.tabs-District_of_Columbia-tab-content {
+.tabs-Texas-tab-content {
     margin-top: 20px;
     font-size: 1rem;
     color: #333;
 }
 
 
-.tabs-District_of_Columbia-tab-content h2 {
+.tabs-Texas-tab-content h2 {
     font-size: 22px;
     margin-bottom: 10px;
 }

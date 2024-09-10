@@ -102,6 +102,7 @@ import California from './pages/Learning Center Navbar/State Guides/By State/Cal
 import Colorado from './pages/Learning Center Navbar/State Guides/By State/Colorado/Colorado';
 import Connecticut from './pages/Learning Center Navbar/State Guides/By State/Connecticut/Connecticut';
 import Delaware from './pages/Learning Center Navbar/State Guides/By State/Delaware/Delaware';
+import District_of_Columbia from './pages/Learning Center Navbar/State Guides/By State/District of Columbia/District_of_Columbia';
 import Florida from './pages/Learning Center Navbar/State Guides/By State/Florida/Florida';
 import Georgia from './pages/Learning Center Navbar/State Guides/By State/Georgia/Georgia';
 import Hawaii from './pages/Learning Center Navbar/State Guides/By State/Hawaii/Hawaii';
@@ -138,6 +139,15 @@ import Pennsylvania from './pages/Learning Center Navbar/State Guides/By State/P
 import Rhode_Island from './pages/Learning Center Navbar/State Guides/By State/Rhode Island/Rhode_Island';
 import South_Carolina from './pages/Learning Center Navbar/State Guides/By State/South Carolina/South_Carolina';
 import South_Dakota from './pages/Learning Center Navbar/State Guides/By State/South Dakota/South_Dakota';
+import Tennessee from './pages/Learning Center Navbar/State Guides/By State/Tennessee/Tennessee';
+import Texas from './pages/Learning Center Navbar/State Guides/By State/Texas/Texas';
+import Utah from './pages/Learning Center Navbar/State Guides/By State/Utah/Utah';
+import Vermont from './pages/Learning Center Navbar/State Guides/By State/Vermont/Vermont';
+import Virginia from './pages/Learning Center Navbar/State Guides/By State/Virginia/Virginia';
+import Washington from './pages/Learning Center Navbar/State Guides/By State/Washington/Washington';
+import West_Virginia from './pages/Learning Center Navbar/State Guides/By State/West Virginia/West_Virginia';
+import Wisconsin from './pages/Learning Center Navbar/State Guides/By State/Wisconsin/Wisconsin';
+import Wyoming from './pages/Learning Center Navbar/State Guides/By State/Wyoming/Wyoming';
 
 
 
@@ -199,6 +209,7 @@ const App = () => {
               <Route path='/Learning_Center/Colorado' element={<Colorado />} />
               <Route path='/Learning_Center/Connecticut' element={<Connecticut />} />
               <Route path='/Learning_Center/Delaware' element={<Delaware />} />
+              <Route path='/Learning_Center/District_of_Columbia' element={<District_of_Columbia />} />
               <Route path='/Learning_Center/Florida' element={<Florida />} />
               <Route path='/Learning_Center/Georgia' element={<Georgia />} />
               <Route path='/Learning_Center/Hawaii' element={<Hawaii />} />
@@ -232,6 +243,15 @@ const App = () => {
               <Route path='/Learning_Center/Rhode_Island' element={<Rhode_Island />} />
               <Route path='/Learning_Center/South_Carolina' element={<South_Carolina />} />
               <Route path='/Learning_Center/South_Dakota' element={<South_Dakota />} />
+              <Route path='/Learning_Center/Tennessee' element={<Tennessee />} />
+              <Route path='/Learning_Center/Texas' element={<Texas />} />
+              <Route path='/Learning_Center/Utah' element={<Utah />} />
+              <Route path='/Learning_Center/Vermont' element={<Vermont />} />
+              <Route path='/Learning_Center/Virginia' element={<Virginia />} />
+              <Route path='/Learning_Center/Washington' element={<Washington />} />
+              <Route path='/Learning_Center/West_Virginia' element={<West_Virginia />} />
+              <Route path='/Learning_Center/Wisconsin' element={<Wisconsin />} />
+              <Route path='/Learning_Center/Wyoming' element={<Wyoming />} />
 
 
               {/* starting a business navbar */}
