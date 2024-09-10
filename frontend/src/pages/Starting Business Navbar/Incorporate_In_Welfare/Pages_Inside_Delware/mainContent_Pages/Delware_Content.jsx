@@ -64,7 +64,7 @@
 //                     <li>The Delaware Court of Chancery mainly hears cases involving businesses and uses judges (not juries)</li>
 //                 </ul>
 //                 <p>
-//                 One way to easily and efficiently start a Delaware corporation is by using the services of incorporate.com. incorporate.com has helped thousands of companies with incorporating in Delaware and our established relationship with the Delaware Secretary of State allows us to provide the best service in the industry. We offer both s corp and c corp status packages for Delaware corporations. We can take care of the process from reviewing your business name, to filing your paperwork, to serving as your registered agent for Delaware. Get started now!
+//                 One way to easily and efficiently start a Delaware corporation is by using the services of Ascend. Ascend has helped thousands of companies with incorporating in Delaware and our established relationship with the Delaware Secretary of State allows us to provide the best service in the industry. We offer both s corp and c corp status packages for Delaware corporations. We can take care of the process from reviewing your business name, to filing your paperwork, to serving as your registered agent for Delaware. Get started now!
 //                 </p>
 //                 <div className="img_delware">
 //                   <div className='left_del_img'>
@@ -93,7 +93,7 @@
 //                   Ascend can take care of the requirements to get your Delaware incorporation up and running and advise you of the total cost to incorporate in Delaware online based on your individual situation.
 //                 </p>
 //                 <p>
-//                 Deciding where to form your business is a decision that has a lot of considerations. Delaware is a great choice for most businesses. With the help of incorporate.com, you can incorporate your business in Delaware online quickly and with ease. Our long standing relationship with the state of Delaware makes it starting a corporation fast and efficient. We can generally process a corporation in the state of Delaware in 48-72 hours.
+//                 Deciding where to form your business is a decision that has a lot of considerations. Delaware is a great choice for most businesses. With the help of Ascend, you can incorporate your business in Delaware online quickly and with ease. Our long standing relationship with the state of Delaware makes it starting a corporation fast and efficient. We can generally process a corporation in the state of Delaware in 48-72 hours.
 //                 </p>
 //                 <h2>
 //                 Why not get started today? Click the button to begin your company formation for Delaware.
@@ -169,7 +169,7 @@ function Delware_Content() {
                     <li>The Delaware Court of Chancery mainly hears cases involving businesses and uses judges (not juries)</li>
                 </ul>
                 <p>
-                    One way to easily and efficiently start a Delaware corporation is by using the services of incorporate.com. incorporate.com has helped thousands of companies with incorporating in Delaware and our established relationship with the Delaware Secretary of State allows us to provide the best service in the industry. We offer both s corp and c corp status packages for Delaware corporations. We can take care of the process from reviewing your business name, to filing your paperwork, to serving as your registered agent for Delaware. Get started now!
+                    One way to easily and efficiently start a Delaware corporation is by using the services of Ascend. Ascend has helped thousands of companies with incorporating in Delaware and our established relationship with the Delaware Secretary of State allows us to provide the best service in the industry. We offer both s corp and c corp status packages for Delaware corporations. We can take care of the process from reviewing your business name, to filing your paperwork, to serving as your registered agent for Delaware. Get started now!
                 </p>
                 <div className="img_delware">
                     <div className='left_del_img'>
@@ -198,7 +198,7 @@ function Delware_Content() {
                     Ascend can take care of the requirements to get your Delaware incorporation up and running and advise you of the total cost to incorporate in Delaware online based on your individual situation.
                 </p>
                 <p>
-                    Deciding where to form your business is a decision that has a lot of considerations. Delaware is a great choice for most businesses. With the help of incorporate.com, you can incorporate your business in Delaware online quickly and with ease. Our long-standing relationship with the state of Delaware makes starting a corporation fast and efficient. We can generally process a corporation in the state of Delaware in 48-72 hours.
+                    Deciding where to form your business is a decision that has a lot of considerations. Delaware is a great choice for most businesses. With the help of Ascend, you can incorporate your business in Delaware online quickly and with ease. Our long-standing relationship with the state of Delaware makes starting a corporation fast and efficient. We can generally process a corporation in the state of Delaware in 48-72 hours.
                 </p>
                 <h2>
                     Why not get started today? Click the button to begin your company formation for Delaware.

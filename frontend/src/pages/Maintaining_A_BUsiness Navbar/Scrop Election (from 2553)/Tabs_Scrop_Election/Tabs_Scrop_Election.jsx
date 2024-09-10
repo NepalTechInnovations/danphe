@@ -43,7 +43,7 @@ const Tabs_Scorp_Election = () => {
                             <li>Once-a-year tax filing requirement (vs. quarterly for a C Corporation)</li>
                         </ul>
                         <p>
-                        In order to elect an s corporation status, companies must file the IRS S Corp Form 2553, "Election By a Small Business Corporation." Timing is critical with Form 2553. The s corp election deadline dictates that it must be filed within 75 days of your c corporation or LLC's anniversary of formation, or within 75 days of a new year. If you have questions about a potentially late s corp election, please speak with a representative from incorporate.com who may be able to help you.
+                        In order to elect an s corporation status, companies must file the IRS S Corp Form 2553, "Election By a Small Business Corporation." Timing is critical with Form 2553. The s corp election deadline dictates that it must be filed within 75 days of your c corporation or LLC's anniversary of formation, or within 75 days of a new year. If you have questions about a potentially late s corp election, please speak with a representative from Ascend who may be able to help you.
                         </p>
                         <p>
                         Companies often find it worthwhile to file Form 2553 for the thousands of dollars in potential tax savings an S Corporation status can provide their C Corporation or LLC.

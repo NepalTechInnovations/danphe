@@ -34,7 +34,7 @@ const FQA_Register_in_Additional_States = () => {
             <div id="Question_1" className="FQA_Register_in_Additional_States-section">
                 <h3>What is a qualification?</h3>
                 <p>
-                If your corporation or Limited Liability Company (LLC) conducts business outside of the state where it was formed, then you may need to register your company in additional states-also referred to as "foreign" states. incorporate.com can assist you with this registration process, known as 'qualifying'.
+                If your corporation or Limited Liability Company (LLC) conducts business outside of the state where it was formed, then you may need to register your company in additional states-also referred to as "foreign" states. Ascend can assist you with this registration process, known as 'qualifying'.
                 </p>
                 <p onClick={() => scrollToSection('top')} className="FQA_Register_in_Additional_States-back-to-top">Back to Top</p>
             </div>
@@ -42,7 +42,7 @@ const FQA_Register_in_Additional_States = () => {
             <div id="Question_2" className="FQA_Register_in_Additional_States-section">
                 <h3>How do I qualify in a foreign state?</h3>
                 <p>
-                Requirements for qualification vary by state. incorporate.com can tell you what information you need in order to qualify. incorporate.com can help you to file the documents your company needs in all of the states where you do business.
+                Requirements for qualification vary by state. Ascend can tell you what information you need in order to qualify. Ascend can help you to file the documents your company needs in all of the states where you do business.
                 </p>
 
                 <p onClick={() => scrollToSection('top')} className="FQA_Register_in_Additional_States-back-to-top">Back to Top</p>

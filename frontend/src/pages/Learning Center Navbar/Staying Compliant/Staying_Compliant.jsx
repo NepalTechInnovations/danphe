@@ -26,7 +26,7 @@ const Staying_Compliant = () => {
           </ol>
           <h2 className="Staying_Compliant_subheading">Our Exclusive $75,000 Corporate Compliance Guarantee</h2>
           <p className="Staying_Compliant_paragraph">
-          To provide peace of mind and to align with our commitment to quality service, every formation processed by incorporate.com comes with a $75,000 Corporate Compliance Guarantee. incorporate.com guarantees its services against filing defects negligently caused by incorporate.com for the life of your entity.
+          To provide peace of mind and to align with our commitment to quality service, every formation processed by Ascend comes with a $75,000 Corporate Compliance Guarantee. Ascend guarantees its services against filing defects negligently caused by Ascend for the life of your entity.
           </p>
 
           <h3>

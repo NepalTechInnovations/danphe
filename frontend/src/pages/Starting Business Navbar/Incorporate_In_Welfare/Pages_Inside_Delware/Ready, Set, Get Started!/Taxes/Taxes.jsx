@@ -14,7 +14,7 @@ function Taxes() {
                 When deciding whether to form your LLC, you'll want to consider all aspects of the costs of incorporating in Delaware, including formation fees and ongoing taxes.
                 </p>
                 <p>
-                Our experts at incorporate.com will be happy to take care of the requirements to get your Delaware LLC or corporation up and running. We'll advise you of the cost and help you complete all requirements. Contact us today!
+                Our experts at Ascend will be happy to take care of the requirements to get your Delaware LLC or corporation up and running. We'll advise you of the cost and help you complete all requirements. Contact us today!
                 </p>
 
                 <h2>How Much Does It Cost to Incorporate in Delaware?</h2>
@@ -76,7 +76,7 @@ function Taxes() {
                 Filing on your own to attempt to reduce the fees associated with forming a Delaware corporation or LLC might seem like a good idea at first. But the additional time and stress created by going through the process yourself may wind up costing you in the long run. Potential errors can increase your costs to incorporate, and there is no one to turn to when you need important questions answered.
                 </p>
                 <p>
-                The experts at incorporate.com will take care of the requirements and filing fees needed to get your Delaware corporation up and running. We'll let you know the total cost to incorporate in Delaware based on your individual situation, and you'll find our services to be affordable, and much less confusing than trying to do it yourself. Contact us today!
+                The experts at Ascend will take care of the requirements and filing fees needed to get your Delaware corporation up and running. We'll let you know the total cost to incorporate in Delaware based on your individual situation, and you'll find our services to be affordable, and much less confusing than trying to do it yourself. Contact us today!
                 </p>
 
                 <h2>

@@ -28,7 +28,7 @@ const FQAS_Nr = () => {
             <div id="What-is-an-Employer-Identification-Number-(EIN)?" className="fqas-nr-section">
                 <h3>What is a name reservation?</h3>
                 <p>
-                A name reservation is a filing with the Secretary of State (or equivalent) office to hold a corporate name for a set period of time (that varies by state). incorporate.com can assist you in reserving a corporate name. In addition, we can do a preliminary name search before reserving a name or incorporating your business.
+                A name reservation is a filing with the Secretary of State (or equivalent) office to hold a corporate name for a set period of time (that varies by state). Ascend can assist you in reserving a corporate name. In addition, we can do a preliminary name search before reserving a name or incorporating your business.
                 </p>
 
                 <p onClick={() => scrollToSection('top')} className="fqas-nr-back-to-top">Back to Top</p>

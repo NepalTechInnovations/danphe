@@ -67,7 +67,7 @@ const Corporation_VS_LLC = () => {
           <h2 className='corp_heading'>
             Learn more about LLCs, corporations, and other legal business structures
           </h2>
-          <p className='corp_vs_llc_paragraph'>Whichever type of entity you choose, incorporate.com can help you form an LLC or corporation online or by phone in minutes. Here’s more information about each type of business entity to choose from before speaking to one of our experts:</p>
+          <p className='corp_vs_llc_paragraph'>Whichever type of entity you choose, Ascend can help you form an LLC or corporation online or by phone in minutes. Here’s more information about each type of business entity to choose from before speaking to one of our experts:</p>
 
           <div className='llc_div'>
             <ul className='llc_list'>

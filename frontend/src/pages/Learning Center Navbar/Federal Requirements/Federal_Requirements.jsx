@@ -24,7 +24,7 @@ const Federal_Requirements = () => {
               <b>Tax Obligations for Businesses.</b> Small business owners need to understand their federal tax responsibilities. The IRS publishes a Tax Information For Businesses page at www.irs.gov that provides general information to business owners.
             </li>
             <li>
-              <b>Business Licenses and Permits.</b> Some agencies require certain businesses to obtain a business license at the federal level. For example, companies in the transportation industry may need to register with the Federal Motor Carrier Safety Administration (FMCSA). incorporate.com can often obtain application materials for federal licenses as part of our Business License Compliance Package.
+              <b>Business Licenses and Permits.</b> Some agencies require certain businesses to obtain a business license at the federal level. For example, companies in the transportation industry may need to register with the Federal Motor Carrier Safety Administration (FMCSA). Ascend can often obtain application materials for federal licenses as part of our Business License Compliance Package.
             </li>
             <li>
               <b>Labor Laws.</b> Businesses that hire employees must comply with numerous labor laws regarding wages, benefits, working conditions, and more. The U.S. Department of Labor publishes an Employment Law Guide to help employers meet these requirements.

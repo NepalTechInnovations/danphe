@@ -72,10 +72,10 @@ const Tabs_By_Laws = () => {
                             Ascend can help.
                         </h2>
                         <p>
-                            No matter what state your business is headquartered in, incorporate.com can provide you with an operating agreement that is specially tailored to your company. For the same fee, we can also help you with bylaws for your corporation in any state.
+                            No matter what state your business is headquartered in, Ascend can provide you with an operating agreement that is specially tailored to your company. For the same fee, we can also help you with bylaws for your corporation in any state.
                         </p>
                         <p>
-                            Provide us with basic information about your company's owners, management, and purpose. We will then input that information into a standard bylaws or operating agreement template for your company. Once we've completed your bylaws or operating agreement, we'll send it to you by email. You can then print it and keep it with your company records. Unfortunately, incorporate.com cannot provide you with legal advice in the preparation of your bylaws or operating agreement and you should consult an attorney if you need legal advice.
+                            Provide us with basic information about your company's owners, management, and purpose. We will then input that information into a standard bylaws or operating agreement template for your company. Once we've completed your bylaws or operating agreement, we'll send it to you by email. You can then print it and keep it with your company records. Unfortunately, Ascend cannot provide you with legal advice in the preparation of your bylaws or operating agreement and you should consult an attorney if you need legal advice.
                         </p>
                         <h2 className='heading_bottom'>
                             Learn More

@@ -44,7 +44,7 @@ const Tabs_Entity_Conversion = () => {
                         </ul>
 
                         <p>
-                        Whatever the reason, incorporate.com can help you with the conversion process for our standard fee(s) plus mandatory state fees.
+                        Whatever the reason, Ascend can help you with the conversion process for our standard fee(s) plus mandatory state fees.
                         </p>
 
                         <h2>Place Your Conversion Order Now</h2>

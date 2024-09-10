@@ -13,7 +13,7 @@ function DelawareBusinessLicenses() {
                 <h2>How to Do a Delaware Corporation Name Search
                 </h2>
                 <p>
-                Looking for help doing your state of Delaware corporation search? incorporate.com would be happy to walk you through this process.
+                Looking for help doing your state of Delaware corporation search? Ascend would be happy to walk you through this process.
                 </p>
                 
                 <p>
@@ -38,7 +38,7 @@ function DelawareBusinessLicenses() {
                 We'll help you to determine if your new name is available and reserve it for you for an additional fee.
                 </p>
                 <p>
-                Using the name you love for your company doesn't have to be hard. Let incorporate.com walk you through how to your Delaware corporation or Delaware LLC. We'll take care of everything from double-checking the name to filing the paperwork to serving as your registered agent. Contact us today!
+                Using the name you love for your company doesn't have to be hard. Let Ascend walk you through how to your Delaware corporation or Delaware LLC. We'll take care of everything from double-checking the name to filing the paperwork to serving as your registered agent. Contact us today!
                 </p>
                 <h2>
                     Ready to Form Your LLC in Delware?

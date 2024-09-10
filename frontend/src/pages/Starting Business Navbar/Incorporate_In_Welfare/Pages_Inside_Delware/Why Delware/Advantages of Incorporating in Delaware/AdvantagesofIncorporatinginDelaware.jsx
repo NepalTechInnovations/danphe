@@ -14,7 +14,7 @@ function AdvantagesofIncorporatinginDelware() {
                 In fact, Delaware is a very popular place to form a corporation. There are many advantages of incorporating in Delaware. It's no accident that Delaware has been known as the place for businesses to incorporate since the early 1900s, and its incorporation and LLC rates continue to grow rapidly. Over a million business entities have made Delaware their legal home.
                 </p>
                 <p>
-                Do you want help forming your LLC or incorporating in Delaware? incorporate.com has helped thousands of companies with incorporating in Delaware. We'll walk you through the whole process, from reviewing your business name to serving as your registered agent. Contact us today!
+                Do you want help forming your LLC or incorporating in Delaware? Ascend has helped thousands of companies with incorporating in Delaware. We'll walk you through the whole process, from reviewing your business name to serving as your registered agent. Contact us today!
                 </p>
                 <h2>Benefits of Forming a Delaware LLC or a Delaware Corporation
                 </h2>
@@ -64,7 +64,7 @@ function AdvantagesofIncorporatinginDelware() {
                 In the end, even a small company has good reason to choose Delaware for its incorporation advantages.
                 </p>
                 <p>
-                If you want the advantages of incorporating in Delaware, let incorporate.com help you! Our relationship with the Delaware Secretary of State allows us to provide the best service in the industry. Get started with us today!
+                If you want the advantages of incorporating in Delaware, let Ascend help you! Our relationship with the Delaware Secretary of State allows us to provide the best service in the industry. Get started with us today!
                 </p>
                 
                 <h2>

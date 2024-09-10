@@ -18,7 +18,7 @@ const Incorporate_In_Welfare = () => {
         <div className="top_main_bottom_delware">
           <div className='left_top_main_bottom_delware'>
             <p className='delware_paragraph'>
-              Over 1 million businesses call Delaware their legal home. More than half of the corporations that make up the Fortune 500® are incorporated in the State of Delaware. Before you start your business, navigate through the Delaware Corporation Knowledge Hub to learn more about the many advantages the state offers for businesses both small and large. Also, learn how incorporate.com is able to support you at every step of your business formation journey managing your paperwork and state filings so that you can focus on your business.
+              Over 1 million businesses call Delaware their legal home. More than half of the corporations that make up the Fortune 500® are incorporated in the State of Delaware. Before you start your business, navigate through the Delaware Corporation Knowledge Hub to learn more about the many advantages the state offers for businesses both small and large. Also, learn how Ascend is able to support you at every step of your business formation journey managing your paperwork and state filings so that you can focus on your business.
             </p>
           </div>
 

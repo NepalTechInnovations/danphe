@@ -41,7 +41,7 @@ const Stock_And_Membership = () => {
             </p>
 
 
-            <h2>Cost of Purchasing Stock or Membership Certificates from incorporate.com</h2>
+            <h2>Cost of Purchasing Stock or Membership Certificates from Ascend</h2>
             <p>
             The minimum purchase requirement is 20 certificates and you can receive discounts for ordering in a larger quantity. You can also purchase additional certificates for $0.50 each.
             </p>

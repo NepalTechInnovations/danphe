@@ -152,7 +152,7 @@ const Benefits_of_Delaware_LLC = () => {
           </h1>
 
           <p>
-          Make it happen with incorporate.com. From formations to ongoing business filings, we help you stay on track as your business grows. We specialize in a range of business services, such as:
+          Make it happen with Ascend. From formations to ongoing business filings, we help you stay on track as your business grows. We specialize in a range of business services, such as:
           </p>
 
           <ul>

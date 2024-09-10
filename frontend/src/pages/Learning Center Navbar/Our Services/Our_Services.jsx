@@ -21,7 +21,7 @@ const Our_Services = () => {
 
           <p><b>Annual Report Filing</b></p>
           <p>
-            Save time, cut expenses, and protect your company's good standing with Annual Report Preparation & Filing services from incorporate.com.
+            Save time, cut expenses, and protect your company's good standing with Annual Report Preparation & Filing services from Ascend.
           </p>
 
           <p><b>Bank Account Resolutions (Written Consents)</b></p>
@@ -36,7 +36,7 @@ const Our_Services = () => {
 
           <p><b>Bylaws & Operating Agreements</b></p>
           <p>
-            Get help creating the internal documents that govern your business. incorporate.com offers corporate bylaws in numerous states, or an LLC operating agreement in any state.
+            Get help creating the internal documents that govern your business. Ascend offers corporate bylaws in numerous states, or an LLC operating agreement in any state.
           </p>
 
           <p><b>Certificate of Good Standing</b></p>
@@ -80,7 +80,7 @@ const Our_Services = () => {
 
           <p><b>Employer Identification Number (EIN)</b></p>
           <p>
-            Corporations, multiple-member LLCs, and any business that hires employees must obtain an EIN through the Internal Revenue Service (IRS). Let incorporate.com apply for your new EIN.
+            Corporations, multiple-member LLCs, and any business that hires employees must obtain an EIN through the Internal Revenue Service (IRS). Let Ascend apply for your new EIN.
           </p>
 
           <p><b>Franchise Tax E-Filing</b></p>
@@ -110,22 +110,22 @@ const Our_Services = () => {
 
           <p><b>Mail Forwarding</b></p>
           <p>
-            Delaware and Nevada companies can establish a private mailbox with our Mail Forwarding Service. incorporate.com will forward your business mail to any state in the U.S. and to other countries.
+            Delaware and Nevada companies can establish a private mailbox with our Mail Forwarding Service. Ascend will forward your business mail to any state in the U.S. and to other countries.
           </p>
 
           <p><b>Register in Additional States (Foreign Qualifications)</b></p>
           <p>
-            If you conduct business in multiple locations, you may need to register in more than one state. incorporate.com can help you register to do business in any state or the District of Columbia.
+            If you conduct business in multiple locations, you may need to register in more than one state. Ascend can help you register to do business in any state or the District of Columbia.
           </p>
 
           <p><b>Registered Agent Service</b></p>
           <p>
-            All corporations and LLCs must maintain a registered address to receive important legal documents and state notifications. incorporate.com can serve as your Registered Agent in any state or the District of Columbia.
+            All corporations and LLCs must maintain a registered address to receive important legal documents and state notifications. Ascend can serve as your Registered Agent in any state or the District of Columbia.
           </p>
 
           <p><b>Reinstatements</b></p>
           <p>
-            incorporate.com can help restore your company to good standing after it has been voided or dissolved by the state for failure to satisfy its good standing requirements.
+            Ascend can help restore your company to good standing after it has been voided or dissolved by the state for failure to satisfy its good standing requirements.
           </p>
 
           <p><b>S-Corporation Election - Form 2553</b></p>

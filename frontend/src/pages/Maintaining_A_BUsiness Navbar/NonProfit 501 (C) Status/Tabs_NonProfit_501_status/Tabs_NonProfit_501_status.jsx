@@ -76,7 +76,7 @@ const Tabs_NonProfit_501_status = () => {
                         Nonprofit Formation with Ascend.
                         </h2>
                         <p>
-                        It is important to remember that a 501(c) must satisfy certain conditions and requirements imposed by the IRS to obtain and maintain tax-exempt status. incorporate.com cannot provide legal or tax advice regarding these conditions and requirements and it may be necessary for your nonprofit to consult with other professionals, such as lawyers, accountants or tax advisors.
+                        It is important to remember that a 501(c) must satisfy certain conditions and requirements imposed by the IRS to obtain and maintain tax-exempt status. Ascend cannot provide legal or tax advice regarding these conditions and requirements and it may be necessary for your nonprofit to consult with other professionals, such as lawyers, accountants or tax advisors.
                         </p>
                         <h2>
                         Learn more about 501(c) and 501(c)(3) Statuses
@@ -85,7 +85,7 @@ const Tabs_NonProfit_501_status = () => {
                         Find out more about 501(c) status in our Frequently Asked Questions section.
                         </p>
                         <p>
-                        DISCLAIMER – incorporate.com does not provide tax or legal advice and the information above should not be relied upon in making any tax or legal decision.
+                        DISCLAIMER – Ascend does not provide tax or legal advice and the information above should not be relied upon in making any tax or legal decision.
                         </p>
                         {/* <h2 className='heading_bottom'>
                             Learn More

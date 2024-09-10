@@ -75,7 +75,7 @@ const Tabs_None_Profit_Corporation = () => {
                         Ascend can help you form a nonprofit corporation in any state or the District of Columbia and assist your nonprofit by providing the forms necessary for it to obtain tax-exempt 501(c) status with the IRS.
                         </p>
                         <p>
-                        It is important to remember that a 501(c) must satisfy certain conditions and requirements imposed by the IRS to obtain and maintain tax-exempt status. incorporate.com cannot provide legal or tax advice regarding these conditions and requirements and it may be necessary for your nonprofit to consult with other professionals, such as lawyers, accountants or tax advisors.
+                        It is important to remember that a 501(c) must satisfy certain conditions and requirements imposed by the IRS to obtain and maintain tax-exempt status. Ascend cannot provide legal or tax advice regarding these conditions and requirements and it may be necessary for your nonprofit to consult with other professionals, such as lawyers, accountants or tax advisors.
                         </p>
                         
 

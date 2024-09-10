@@ -51,7 +51,7 @@ const MaintainingABusiness = () => {
       <div className='bottom_MaintainingABusiness'>
         <h3>Ascend is just the beginning.</h3>
         <p className='MaintainingABusiness_paragraph'>
-          Now that your business is off the ground, check out these other great resources from incorporate.com to help you grow and manage your business. Let us focus on the details so you can focus on running a profitable business. As your long-term partner, we'll stand by you as your needs evolve.
+          Now that your business is off the ground, check out these other great resources from Ascend to help you grow and manage your business. Let us focus on the details so you can focus on running a profitable business. As your long-term partner, we'll stand by you as your needs evolve.
         </p>
 
         <div className="arrow-button">
@@ -62,35 +62,35 @@ const MaintainingABusiness = () => {
         <div className="accordion-section">
           <Accordion
             title="Annual Reports"
-            content="Depending on the state in which you formed your corporation or LLC, you may need to file an annual report. And it's not something to overlook–your company's good standing depends on it. Let incorporate.com manage your annual report. We'll not only save you time, but also ensure you meet your state's requirements to avoid errors and costly fees."
+            content="Depending on the state in which you formed your corporation or LLC, you may need to file an annual report. And it's not something to overlook–your company's good standing depends on it. Let Ascend manage your annual report. We'll not only save you time, but also ensure you meet your state's requirements to avoid errors and costly fees."
             link="/Annual_report"
             isOpen={openAccordionIndex['compliance'] === 0}
             onClick={() => handleAccordionClick('compliance', 0)}
           />
           <Accordion
             title="Business Licenses & Permits"
-            content="There are more than 150,000 filing jurisdictions across the U.S. Do you know which licenses and permits your state requires? incorporate.com can make getting the right licenses and permits easy."
+            content="There are more than 150,000 filing jurisdictions across the U.S. Do you know which licenses and permits your state requires? Ascend can make getting the right licenses and permits easy."
             link="/Business_Licenses"
             isOpen={openAccordionIndex['compliance'] === 1}
             onClick={() => handleAccordionClick('compliance', 1)}
           />
           <Accordion
             title="Bylaws & Operating Agreements"
-            content="All corporations must create corporate bylaws outlining the organization and day-to-day operations. And limited liability companies (LLCs) in many states are required to create an operating agreement, which provides a framework for business operations. No matter where your company is located, incorporate.com can help you create a document tailored to your specific needs."
+            content="All corporations must create corporate bylaws outlining the organization and day-to-day operations. And limited liability companies (LLCs) in many states are required to create an operating agreement, which provides a framework for business operations. No matter where your company is located, Ascend can help you create a document tailored to your specific needs."
             link="/By_Laws_operating_Agreements"
             isOpen={openAccordionIndex['compliance'] === 2}
             onClick={() => handleAccordionClick('compliance', 2)}
           />
           <Accordion
             title="CSCNavigator®"
-            content="As part of incorporate.com's Registered Agent service, you have free access to CSCNavigator, a state-of-the-art online online tool that provides you with alerts when filings are due, a calendar of required filings, order status and related documents, the ability to view and pay invoices, current business standing with the state, and more."
+            content="As part of Ascend's Registered Agent service, you have free access to CSCNavigator, a state-of-the-art online online tool that provides you with alerts when filings are due, a calendar of required filings, order status and related documents, the ability to view and pay invoices, current business standing with the state, and more."
             link="/CSC_Navigator"
             isOpen={openAccordionIndex['compliance'] === 3}
             onClick={() => handleAccordionClick('compliance', 3)}
           />
           <Accordion
             title="Registered Agent Service"
-            content="A registered agent is the state's way of communicating with a corporation or LLC, and it helps to ensure your business maintains compliance. An individual can act as a registered agent, but we recommend using an experienced service provider–like incorporate.com–that can provide reliability, economy, and discretion."
+            content="A registered agent is the state's way of communicating with a corporation or LLC, and it helps to ensure your business maintains compliance. An individual can act as a registered agent, but we recommend using an experienced service provider–like Ascend–that can provide reliability, economy, and discretion."
             link="/Registered_Agent_Service"
             isOpen={openAccordionIndex['compliance'] === 4}
             onClick={() => handleAccordionClick('compliance', 4)}
@@ -104,14 +104,14 @@ const MaintainingABusiness = () => {
           />
           <Accordion
             title="Certificate of Good Standing"
-            content="A Certificate of Good Standing is a state-issued document that shows your corporation or limited liability company (LLC) is authorized to do business in that state. incorporate.com can order Certificates of Good Standing from the Secretary of State in all 50 states and the District of Columbia. By obtaining a Certificate of Good Standing, you can be sure your business has satisfied its annual report, franchise tax, and other obligations."
+            content="A Certificate of Good Standing is a state-issued document that shows your corporation or limited liability company (LLC) is authorized to do business in that state. Ascend can order Certificates of Good Standing from the Secretary of State in all 50 states and the District of Columbia. By obtaining a Certificate of Good Standing, you can be sure your business has satisfied its annual report, franchise tax, and other obligations."
             link="/Certificate_of_Good_Standing"
             isOpen={openAccordionIndex['compliance'] === 6}
             onClick={() => handleAccordionClick('compliance', 6)}
           />
           <Accordion
             title="Certified Copies"
-            content="Business owners occasionally need to get copies of their most important state-filed documents. incorporate.com can help you get true and correct copies of your important business records."
+            content="Business owners occasionally need to get copies of their most important state-filed documents. Ascend can help you get true and correct copies of your important business records."
             link="/Certified_Copies"
             isOpen={openAccordionIndex['compliance'] === 7}
             onClick={() => handleAccordionClick('compliance', 7)}
@@ -140,7 +140,7 @@ const MaintainingABusiness = () => {
         <div className="accordion-section">
           <Accordion
             title="Employer Identification Number (EIN)"
-            content="Much like a Social Security Number, an Employer Identification Number (EIN) is a federal nine-digit number that identifies a business entity. incorporate.com can obtain an EIN from the IRS on your business's behalf. The process is fast, easy and cost-effective."
+            content="Much like a Social Security Number, an Employer Identification Number (EIN) is a federal nine-digit number that identifies a business entity. Ascend can obtain an EIN from the IRS on your business's behalf. The process is fast, easy and cost-effective."
             link="/Employer_ID_Number"
             isOpen={openAccordionIndex['irs_filings'] === 0}
             onClick={() => handleAccordionClick('irs_filings', 0)}
@@ -161,7 +161,7 @@ const MaintainingABusiness = () => {
           />
           <Accordion
             title="LLC Tax Status Election (Form 8832)"
-            content="It's important to have the best available tax classification for your LLC in order to maximize your tax savings. By filing Form 8832 with the IRS, you can choose a tax status for your entity besides the default status that was automatically assigned. Incorporate.com can help walk you through the process."
+            content="It's important to have the best available tax classification for your LLC in order to maximize your tax savings. By filing Form 8832 with the IRS, you can choose a tax status for your entity besides the default status that was automatically assigned. Ascend can help walk you through the process."
             link="/LLC_Tax_Status_Election"
             isOpen={openAccordionIndex['irs_filings'] === 3}
             onClick={() => handleAccordionClick('irs_filings', 3)}
@@ -177,7 +177,7 @@ const MaintainingABusiness = () => {
         <div className="accordion-section">
           <Accordion
             title="Register a Business Name"
-            content="A Doing Business As (DBA) filing allows corporations, LLCs, nonprofits, and other business entities to do business under a name different than the one that appears on their original incorporation documents. incorporate.com can complete DBA registration for you, which could offer your business better visibility, enhanced credibility, and other benefits."
+            content="A Doing Business As (DBA) filing allows corporations, LLCs, nonprofits, and other business entities to do business under a name different than the one that appears on their original incorporation documents. Ascend can complete DBA registration for you, which could offer your business better visibility, enhanced credibility, and other benefits."
             link="/DBA_Business_Name"
             isOpen={openAccordionIndex['other_filings'] === 0}
             onClick={() => handleAccordionClick('other_filings', 0)}
@@ -213,14 +213,14 @@ const MaintainingABusiness = () => {
           />
           <Accordion
             title="Dissolution"
-            content="Businesses close for many reasons, but it's not enough for corporations or LLCs to simply shut their doors. If you have gone out of business, you need to officially dissolve your corporation or LLC with the state. incorporate.com can help you prepare and file your Articles of Dissolution to ensure you terminate your business the right way."
+            content="Businesses close for many reasons, but it's not enough for corporations or LLCs to simply shut their doors. If you have gone out of business, you need to officially dissolve your corporation or LLC with the state. Ascend can help you prepare and file your Articles of Dissolution to ensure you terminate your business the right way."
             link="/Dissolution"
             isOpen={openAccordionIndex['other_filings'] === 5}
             onClick={() => handleAccordionClick('other_filings', 5)}
           />
           <Accordion
             title="Reinstatement"
-            content="Companies that fail to meet their annual filing obligations risk losing their good standing. If your company has been voided or dissolved by the state for failure to meet its good standing requirements, incorporate.com can help reinstate it. We'll pinpoint the reasons your business has fallen out of good standing and help you take the needed actions to return it to full status."
+            content="Companies that fail to meet their annual filing obligations risk losing their good standing. If your company has been voided or dissolved by the state for failure to meet its good standing requirements, Ascend can help reinstate it. We'll pinpoint the reasons your business has fallen out of good standing and help you take the needed actions to return it to full status."
             link="/Reinstatement"
             isOpen={openAccordionIndex['other_filings'] === 6}
             onClick={() => handleAccordionClick('other_filings', 6)}

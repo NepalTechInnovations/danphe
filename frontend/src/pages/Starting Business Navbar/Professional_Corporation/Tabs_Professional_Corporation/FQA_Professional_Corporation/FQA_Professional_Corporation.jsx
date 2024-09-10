@@ -69,7 +69,7 @@ const FQA_Professional_Corporation = () => {
             <div id="Question_4" className="fqa-professional-corporation-section">
                 <h3>Do I need an attorney to form a PC or PLLC?</h3>
                 <p>
-                    No. You can prepare and file necessary paperwork yourself, or you can use incorporate.com to incorporate your business. If you are unsure whether incorporating will benefit your business, please call us at 800-818-6082. Our Business Specialists are happy to provide the information you need to make the right decision.
+                    No. You can prepare and file necessary paperwork yourself, or you can use Ascend to incorporate your business. If you are unsure whether incorporating will benefit your business, please call us at 800-818-6082. Our Business Specialists are happy to provide the information you need to make the right decision.
                 </p>
 
                 <p onClick={() => scrollToSection('top')} className="fqa-professional-corporation-back-to-top">Back to Top</p>

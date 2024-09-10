@@ -103,7 +103,7 @@ const FQA_DBA_Business_Name = () => {
                 If your LLC will operate under a DBA name, it must register its DBA with the appropriate state, county, city, or town government office. An LLC might file a DBA to market a new product or service, or to simply operate under an additional name.
                 </p>
                 <p>
-                Some state and local government offices refer to a DBA as a "trade name" or "assumed name," since these names usually reflect the company's line of business more accurately than its legal name. Let incorporate.com help your LLC register a DBA name.
+                Some state and local government offices refer to a DBA as a "trade name" or "assumed name," since these names usually reflect the company's line of business more accurately than its legal name. Let Ascend help your LLC register a DBA name.
                 </p>
                 <p onClick={() => scrollToSection('top')} className="FQA_DBA_Business_Name-back-to-top">Back to Top</p>
             </div>
@@ -134,7 +134,7 @@ const FQA_DBA_Business_Name = () => {
             <div id="Question_8" className="FQA_DBA_Business_Name-section">
                 <h3>How do I file a DBA?</h3>
                 <p>
-                If you own a corporation or LLC, incorporate.com can help you file a DBA with the appropriate state, county, or local office for a service fee of $150 plus government fees.
+                If you own a corporation or LLC, Ascend can help you file a DBA with the appropriate state, county, or local office for a service fee of $150 plus government fees.
                 </p>
                 <p>
                 If you conduct business as a sole proprietor or partnership, our services depend upon the location of your business. Please contact us for more information about the services we offer in your area. In some cases, we can help sole proprietors and partnerships file DBAs.
