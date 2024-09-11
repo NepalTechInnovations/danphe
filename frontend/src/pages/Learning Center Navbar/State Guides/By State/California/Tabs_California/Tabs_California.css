@@ -1,5 +1,6 @@
 .tabs-California-container {
     width: 100%;
+    /* display: flex; */
 }
 
 .tabs-California-tabs {
@@ -25,6 +26,7 @@
 }
 
 .tabs-California-tab-indicator {
+    /* display:none; */
     position: relative;
     width: 100%;
     height: 8px;

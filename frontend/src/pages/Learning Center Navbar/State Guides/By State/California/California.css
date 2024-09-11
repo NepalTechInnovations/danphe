@@ -26,13 +26,13 @@
 
 .bottom_California {
     display: flex;
-    width: 70%;
-    gap: 3%;
+    width: 85%;
+    gap: 2%;
     margin: 50px auto;
 }
 
 .left_side_California {
-    width: 70%;
+    width: 90%;
 }
 
 .right_side_California {

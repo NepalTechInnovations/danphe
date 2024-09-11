@@ -4,6 +4,10 @@ import './Tabs_California.css';
 import Corporation from './Content_California/Corporation';
 import LLC from './Content_California/LLC';
 import Business_Licenses from './Content_California/Business Licenses';
+import TaxFees from './Content_California/Tax&fees';
+import CertificatesForms from './CertificatesForms';
+import DoingBusinessAs from './Content_California/DoingBusinessAs';
+import NameSearch from './Content_California/NameSearch';
 
 
 const Tabs_California = () => {
@@ -11,9 +15,13 @@ const Tabs_California = () => {
 
     // Define your tabs dynamically (excluding Overview and FAQs)
     const tabs = [
-        { name: 'Corporation', content: <Corporation /> },
+        { name: 'Incorporate', content: <Corporation /> },
         { name: 'LLC', content: <LLC /> },
-        { name: 'Business-Licenses', content: <Business_Licenses /> },
+        { name: 'Taxes & Fees', content: <TaxFees/> },
+        { name: 'Certificates & Forms', content: <CertificatesForms/> },
+        { name: 'Name & Search', content: <NameSearch/> },
+        { name: 'Doing Business As', content: <DoingBusinessAs/> },
+        { name: 'Business License', content: <Business_Licenses /> },
     ];
 
     const handleTabClick = (tab) => {
